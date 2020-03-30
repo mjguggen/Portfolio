@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.de86444c.chunk.css",
+    "main.js": "/Portfolio/static/js/main.03eccfce.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.03eccfce.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.2537043f.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.2537043f.js.map",
+    "static/js/2.a54cfe0c.chunk.js": "/Portfolio/static/js/2.a54cfe0c.chunk.js",
+    "static/js/2.a54cfe0c.chunk.js.map": "/Portfolio/static/js/2.a54cfe0c.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.0161e4d4daadbe2a580ad286acece4f7.js": "/Portfolio/precache-manifest.0161e4d4daadbe2a580ad286acece4f7.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/main.de86444c.chunk.css.map": "/Portfolio/static/css/main.de86444c.chunk.css.map",
+    "static/js/2.a54cfe0c.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.a54cfe0c.chunk.js.LICENSE.txt",
+    "static/media/Mike_Guggenbuehl.jpg": "/Portfolio/static/media/Mike_Guggenbuehl.4576c8d6.jpg",
+    "static/media/bg.jpg": "/Portfolio/static/media/bg.05b072c1.jpg",
+    "static/media/bg_nav.jpg": "/Portfolio/static/media/bg_nav.7bed98c7.jpg",
+    "static/media/checkbox.png": "/Portfolio/static/media/checkbox.90e0965f.png",
+    "static/media/drumpad_background.jpg": "/Portfolio/static/media/drumpad_background.c3e128ca.jpg",
+    "static/media/fcc_secondary_large.png": "/Portfolio/static/media/fcc_secondary_large.45d7fd89.png",
+    "static/media/stockinfo_background.jpg": "/Portfolio/static/media/stockinfo_background.4dc91769.jpg",
+    "static/media/weather_background.jpg": "/Portfolio/static/media/weather_background.eca595ab.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2537043f.js",
+    "static/js/2.a54cfe0c.chunk.js",
+    "static/css/main.de86444c.chunk.css",
+    "static/js/main.03eccfce.chunk.js"
+  ]
+}
