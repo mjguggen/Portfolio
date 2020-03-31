@@ -518,16 +518,30 @@ a {
 
 .footer-link {
   margin-right: 20px;
-  padding: 4px;
-  border: 1px solid white;
-  border-radius: 10px;
-  width: 60px;
+  padding: 3px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border-bottom: 2px solid transparent;
+  object-fit: cover;
+  .footer-img {
+    max-width: 90%;
+    max-height: 90%;
+    filter: invert(100%);
+  }
 
   &:hover {
-    background-color: white;
-    color: $color2;
+    border-bottom: 2px solid white;
+
+    .footer-img {
+      filter: invert(100%) brightness(.03) sepia(20) saturate(80) hue-rotate(540deg);
+    }
   }
 }
+
+
 
 .copyright{
   text-align: center;
@@ -674,12 +688,6 @@ button {
     padding-bottom: 30px;
   }
 }
-
-
-
-
-
-
 
 
 
