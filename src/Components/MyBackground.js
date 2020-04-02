@@ -6,7 +6,7 @@ const MyBackground = props => (
     <div className="page" id="my-background">
 
         <div className="container">
-            <h1> My Background</h1>
+            <h1> BACKGROUND</h1>
 
             <div className='mybg-bar'/>
 

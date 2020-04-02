@@ -147,7 +147,7 @@ class App extends React.Component {
 
   render () {
     return (
-      <div id="App">
+      <div id="App" className="App">
           <Navbar />
           <TitlePage />
           <MyBackground />

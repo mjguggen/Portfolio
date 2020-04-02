@@ -8,11 +8,15 @@ $main-color: #004551;
 $color2: #0ca890;
 $background-color2: #f2f2f2;
 $gradient: linear-gradient(to right, $main-color, $color2);
-
-
+$fontColor: #222222;
+$fontColor2: #474747;
 
 
 //elements
+.App {
+  color: $fontColor;
+}
+
 .page {
   height: 100%;
   width: 100%;
@@ -214,8 +218,7 @@ a {
   margin-bottom: 10px;
   padding-left: 27px;
   font-size: 14px;
-  color: #1c1c1c;
-
+  color: $fontColor2;
 }
 
 
@@ -229,8 +232,7 @@ a {
   background-color: $background-color2;
 }
 
-
-
+/*
 .project-container {
   display: flex;
   flex-wrap: wrap;
@@ -310,17 +312,76 @@ a {
   font-size: 14px;
 }
 
-.description-link-wrapper {
-  height: 50px;
+
+
+
+*/
+
+.project {
   width: 100%;
   display: flex;
   justify-content: space-around;
-  background-color: white;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.descrption-link {
+.project2 {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+#project-weather {
+  margin-top: -20px;
+}
+
+.project-description-box {
+  width: 100%;
+  max-width: 400px;
+}
+
+.project-title{
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.project-subheader {
+  font-weight: 200;
+  font-size: 12px;
+}
+
+.project-description {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  color: $fontColor2;
+}
+
+.project-tech {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.icon-container {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+#project-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.description-link-wrapper {
+  display: flex;
+}
+
+.description-link {
   width: 100px;
   height: 40px;
   display: flex;
@@ -332,7 +393,7 @@ a {
   font-weight: 600;
   font-size: 16px;
   color: $main-color;
-
+  margin-right: 20px;
 
   &:hover {
     background-color: $main-color;
@@ -340,7 +401,44 @@ a {
   }
 }
 
+.project-image-box {
+  width: 420px;
+}
 
+.project-image {
+  width: 100%;
+  height: 100%;
+  transition: transform .5s;
+
+  &:hover {
+    transform: scale(1.05);
+    transition: transform .5s;
+  }
+}
+
+.project-bar {
+  width: 100%;
+  height: 2px;
+  background-color: #dbdbdb;
+}
+
+@media only screen and (max-width: 720px) {
+  .project-description-box {
+    text-align: center;
+  }
+  .project-tech {
+    display: flex;
+    justify-content: center;
+  }
+  .description-link {
+    margin-right: 0px;
+  }
+  .description-link-wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+
+}
 
 //Certifications
 .logo-container {
@@ -658,7 +756,20 @@ button {
 
 
 @media screen and (max-width: 400px) {
+  //Projects 
+  .project-description {
+    font-size: 14px;
+    text-align: left;
+  }
 
+
+  #project-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .project-image-box {
+    width: 100%;
+  }
 
   //Certifications
   .logo{

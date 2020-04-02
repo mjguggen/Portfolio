@@ -19,7 +19,7 @@ const googleSearch="https://storage.googleapis.com/exceedlms-external-uploads-pr
 const Certifications = props => (
     <div className="page" id="certifications">
         <div className="container">
-            <h1>Certifications</h1>
+            <h1>CERTIFICATIONS</h1>
             <div className="logo-container">
                 <img src={fccLogoLarge} className="logo"/>
             </div>
