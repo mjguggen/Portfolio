@@ -1,6 +1,12 @@
 import React from 'react';
 import bg from '../Assets/bg_contact.png'
+import Footer from '../Components/Footer'
 
+
+const background = {
+    backgroundImage: bg
+    
+}
 
 const Contact = () => {
 
@@ -8,33 +14,32 @@ const Contact = () => {
 
 
     return(
-        <div class="page" id="contact" name="contact" background={bg}>
-                <div className="bg-layer"/>
+        <div class="page" id="contact" name="contact" >
+
+                {/*
                 <div className="contact-bg-wrapper">
                     <img className='contact-bg' src={bg}/>
                 </div>
+                */}
+                
+            <div className="container">
+                <h1>CONTACT</h1>
+                <form className="contact-form" action="https://formspree.io/mvobgwkn" method="POST">
+                    <input type="text" placeholder="Name*" name="Name" className="contact-el" required/>
+                    <br/>
+                    <input type="email" placeholder="Email*" name="Email" className="contact-el" required/>
+                    <br/>
+                    <input type="text" placeholder="Subject*" name="Subject" className="contact-el" required/>
+                    <br/>
+                    <textarea className="contact-el" placeholder="Type your message here." name="message" />
+                    <br/>
 
-            <div id="contact-wrapper">
+                    <input type="submit" className="contact-button" value="LET'S CHAT"/>
 
+                </form>
 
-
-                <div className="container">
-                    <h1>CONTACT</h1>
-                    <form className="contact-form" action="https://formspree.io/mvobgwkn" method="POST">
-                        <input type="text" placeholder="Name*" name="Name" className="contact-el" required/>
-                        <br/>
-                        <input type="email" placeholder="Email*" name="Email" className="contact-el" required/>
-                        <br/>
-                        <input type="text" placeholder="Subject*" name="Subject" className="contact-el" required/>
-                        <br/>
-                        <textarea className="contact-el" placeholder="Type your message here." name="message" />
-                        <br/>
-
-                        <input type="submit" className="contact-button" value="LET'S CHAT"/>
-
-                    </form>
-                </div>
             </div>
+            <Footer/>
         </div>
     )
 }

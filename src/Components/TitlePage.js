@@ -16,8 +16,8 @@ const TitlePage = (props) => {
             </div>
 
             <div className="title-elements">
-                <h1 style={props.styles}> Hey, I'm Mike! </h1>
-                <p>Web Developer // Marketer // Musician </p>
+                <h1 className="title-fade"> Hey, I'm Mike! </h1>
+                <p className="title-fade2">Web Developer // Marketer // Musician </p>
             </div>
         </div>
     )

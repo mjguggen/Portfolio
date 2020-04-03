@@ -14,66 +14,9 @@ import Contact from './Components/Contact'
 
 
 
-/*
-//const faderSlow = document.querySelectorAll(".fade-in-slow")
-const fadeInLeft = document.querySelectorAll(".fade-in-left")
-const fadeOutLeft = document.querySelectorAll(".fade-out-left")
-const fadeInUp = document.querySelectorAll(".fade-in-up")
-const fadeOutUp = document.querySelectorAll(".fade-out-up")
-*/
-
 
 
 class App extends React.Component {
-
-  state = {
-    hover: false,
-    hoverDelay: false,
-  }
-
-
-
-/*
-  skillHover = (event) => {
-    const eventTarget = event.target
-    const classList = 'classList' in eventTarget
-
-    for(let i = 0; i < eventTarget.children.length; i++) {
-      const child = eventTarget.children[i]
-      if (classList) {
-        child.classList.add('appear')
-      }
-
-      for (let i = 0; i < child.children.length; i++) {
-        const child2 = child.children[i]
-        if (classList) {
-          child2.classList.add('appear')
-        }
-      } 
-    }
-  }
-
-  skillHoverOut = (event) => {
-    const eventTarget = event.target
-    const classList = 'classList' in eventTarget
-
-    for(let i = 0; i < eventTarget.children.length; i++) {
-      const child = eventTarget.children[i]
-      if (classList) {
-        child.classList.remove('appear')
-      } 
-
-      for (let i = 0; i < child.children.length; i++) {
-        const child2 = child.children[i]
-        console.log(child2)
-        if (classList) {
-          child2.classList.remove('appear')
-        }
-      } 
-    }
-  }
-*/
-
 
   componentDidMount() {
     //Title Button Color Fade
@@ -154,7 +97,7 @@ class App extends React.Component {
           <Projects />
           <Certifications />
           <Contact/>
-          <Footer />
+{/*          <Footer />*/} 
       </div>
     )
   }

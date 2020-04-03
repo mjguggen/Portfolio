@@ -2,6 +2,7 @@ import React from 'react';
 
 const Footer = props => (
     <div id="footer">
+
         <div className="container">
             <div className="footer-links">
                 <a className="footer-link" href=""> <img className="footer-img" src="https://cdn1.iconfinder.com/data/icons/business-703/80/resume__CV__job__recruitment__file-512.png" download/> </a>
