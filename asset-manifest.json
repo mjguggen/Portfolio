@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.84ab7b37.chunk.css",
-    "main.js": "/Portfolio/static/js/main.feec9f13.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.feec9f13.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.3c0534b7.chunk.css",
+    "main.js": "/Portfolio/static/js/main.8ccd8807.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.8ccd8807.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.2537043f.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.2537043f.js.map",
-    "static/js/2.05fd1af5.chunk.js": "/Portfolio/static/js/2.05fd1af5.chunk.js",
-    "static/js/2.05fd1af5.chunk.js.map": "/Portfolio/static/js/2.05fd1af5.chunk.js.map",
+    "static/js/2.fc3017ab.chunk.js": "/Portfolio/static/js/2.fc3017ab.chunk.js",
+    "static/js/2.fc3017ab.chunk.js.map": "/Portfolio/static/js/2.fc3017ab.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.810ca0ec319ca037d12a1cf2558ffd54.js": "/Portfolio/precache-manifest.810ca0ec319ca037d12a1cf2558ffd54.js",
+    "precache-manifest.dbfac2d7efd2a6c99ad03534e30c4e1f.js": "/Portfolio/precache-manifest.dbfac2d7efd2a6c99ad03534e30c4e1f.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.84ab7b37.chunk.css.map": "/Portfolio/static/css/main.84ab7b37.chunk.css.map",
-    "static/js/2.05fd1af5.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.05fd1af5.chunk.js.LICENSE.txt",
+    "static/css/main.3c0534b7.chunk.css.map": "/Portfolio/static/css/main.3c0534b7.chunk.css.map",
+    "static/js/2.fc3017ab.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.fc3017ab.chunk.js.LICENSE.txt",
     "static/media/Mike_Guggenbuehl.jpg": "/Portfolio/static/media/Mike_Guggenbuehl.4576c8d6.jpg",
     "static/media/bg.png": "/Portfolio/static/media/bg.f30f96b9.png",
-    "static/media/bg_contact.png": "/Portfolio/static/media/bg_contact.f2a0e438.png",
+    "static/media/App.scss": "/Portfolio/static/media/bg_contact_tablet.baa06b1e.png",
     "static/media/bg_nav.jpg": "/Portfolio/static/media/bg_nav.7bed98c7.jpg",
     "static/media/drumpad.png": "/Portfolio/static/media/drumpad.6839d04b.png",
     "static/media/stock_info.png": "/Portfolio/static/media/stock_info.b2716e1c.png",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2537043f.js",
-    "static/js/2.05fd1af5.chunk.js",
-    "static/css/main.84ab7b37.chunk.css",
-    "static/js/main.feec9f13.chunk.js"
+    "static/js/2.fc3017ab.chunk.js",
+    "static/css/main.3c0534b7.chunk.css",
+    "static/js/main.8ccd8807.chunk.js"
   ]
 }
