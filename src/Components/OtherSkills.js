@@ -16,8 +16,6 @@ const OtherSkills = props => {
                     <div onMouseEnter={props.skillHover} onMouseLeave={props.skillHoverOut} className="skill-box" >
                         <div className="skill-title">Music Production</div>
 
-
-
                         <div className="skills-experience"><div>Experience</div></div>
 
                         <div className="skills-bar"/>
@@ -33,58 +31,6 @@ const OtherSkills = props => {
                             </ul>
                         </div>
                     </div>
-
-                    
-{/* 
-                    <div className="skill-box">
-                        <div className="skill-title">Graphic Design</div>
-                        <div onMouseEnter={props.skillHover} onMouseLeave={props.skillHoverOut} className="skill-bottom">
-                            <div className="skills-experience"><div>Experience</div></div>
-                            <div className="skills-bar"/>
-
-                            <ul className="skills">
-                                <li>Photoshop and InDesign</li>
-                                <li>Logos and Graphics</li>
-                                <li>Social Media Content</li>
-                                <li>Email Marketing</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div className="skill-box">
-                        <div className="skill-title">Video Production</div>
-                        <div onMouseEnter={props.skillHover} onMouseLeave={props.skillHoverOut} className="skill-bottom">
-                            <div className="skills-experience"><div>Experience</div></div>
-                            <div className="skills-bar"/>
-
-                            <ul className="skills">
-                                <li>Premiere and After Effects</li>
-                                <li>Video editing </li>
-                                <li></li>
-                                <li>Email Marketing Design</li>
-                            </ul>
-                        </div>
-
-
-
-                        <div className="skill-box">
-                            <div className="skill-title">Social Media</div>
-                            <div onMouseEnter={props.skillHover} onMouseLeave={props.skillHoverOut} className="skill-bottom">
-                                <div className="skills-experience"><div>Experience</div></div>
-                                <div className="skills-bar"/>
-                                <ul className="skills">
-                                    <li>Facebook Ads Manager</li>
-                                    <li>Video editing </li>
-                                    <li></li>
-                                    <li>Email Marketing Design</li>
-                                </ul>
-                            </div>
-                        </div>
-
-
-                    </div>
-*/}                        
-
                 </div>
             </div>
 

@@ -1,6 +1,5 @@
 import React from 'react';
-import Mike from '../Assets/Mike_Guggenbuehl.jpg';
-import bg from '../Assets/bg.jpg'
+import bg from '../Assets/bg.png'
 
 
 

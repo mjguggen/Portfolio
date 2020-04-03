@@ -44,7 +44,7 @@ const Projects = (props) => {
                     </div>
                 </div>
 
-                <div className="project-bar"/>
+                <div className="bar"/>
 
                 <div className="project">
                     <div className="project-image-box fade-in">
@@ -73,7 +73,7 @@ const Projects = (props) => {
                     </div>
                 </div>
 
-                <div className="project-bar"/>
+                <div className="bar"/>
 
                 <div className="project project2">
                     <div className="project-description-box fade-in" >

@@ -1,6 +1,46 @@
 import React from 'react';
+import bg from '../Assets/bg_contact.png'
 
 
+const Contact = () => {
+
+
+
+
+    return(
+        <div class="page" id="contact" name="contact" background={bg}>
+                <div className="bg-layer"/>
+                <div className="contact-bg-wrapper">
+                    <img className='contact-bg' src={bg}/>
+                </div>
+
+            <div id="contact-wrapper">
+
+
+
+                <div className="container">
+                    <h1>CONTACT</h1>
+                    <form className="contact-form" action="https://formspree.io/mvobgwkn" method="POST">
+                        <input type="text" placeholder="Name*" name="Name" className="contact-el" required/>
+                        <br/>
+                        <input type="email" placeholder="Email*" name="Email" className="contact-el" required/>
+                        <br/>
+                        <input type="text" placeholder="Subject*" name="Subject" className="contact-el" required/>
+                        <br/>
+                        <textarea className="contact-el" placeholder="Type your message here." name="message" />
+                        <br/>
+
+                        <input type="submit" className="contact-button" value="LET'S CHAT"/>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+
+/*
 const Contact = () => (
     <div className="page" id="contact" name="contact">
         <div className="container">
@@ -26,6 +66,6 @@ const Contact = () => (
         
     </div>
 )
-
+*/
 
 export default Contact;
