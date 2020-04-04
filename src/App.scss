@@ -653,10 +653,22 @@ textarea {
   height: 100%;
   background: linear-gradient(to right, $main-color, $color2);
   z-index: -1;
-  transform: skewY(-11deg);
+  transform: skewY(-6deg);
   transform-origin: top left;
-  margin-top: 40%;
+  margin-top: 20%;
   overflow:hidden;
+}
+
+@media only screen and (max-width: 900px) {
+  .skewed-footer {
+    margin-top: 35%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .skewed-footer {
+    margin-top: 55%;
+  }
 }
 
 //Footer 
