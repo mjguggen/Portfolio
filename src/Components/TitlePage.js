@@ -1,8 +1,4 @@
 import React from 'react';
-import bg from '../Assets/bg.png'
-
-
-
 
 
 const TitlePage = (props) => {
@@ -10,10 +6,9 @@ const TitlePage = (props) => {
     
 
     return(
-        <div className='page' id='title-page'>
-            <div className="title-bg-wrapper">
-                <img className='title-bg' src={bg}/>
-            </div>
+        <div className='page skew-container' id='title-page'>
+
+              <div class="skewed"></div>
 
             <div className="title-elements">
                 <h1 className="title-fade"> Hey, I'm Mike! </h1>

@@ -8,7 +8,6 @@ import TitlePage from './Components/TitlePage';
 import Projects from './Components/Projects';
 import MyBackground from './Components/MyBackground'
 import Certifications from './Components/Certifications'
-import Footer from './Components/Footer'
 import Navbar from './Components/Navbar'
 import Contact from './Components/Contact'
 
@@ -97,7 +96,6 @@ class App extends React.Component {
           <Projects />
           <Certifications />
           <Contact/>
-{/*          <Footer />*/} 
       </div>
     )
   }

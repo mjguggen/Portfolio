@@ -246,6 +246,28 @@ a {
   to   { opacity: 1; }
 }
 
+//test
+.skew-container {
+  position: relative;
+//  background: $main-color;
+  height: 30vh;
+}
+
+.skewed {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, $main-color, $color2);
+  z-index: 0;
+  transform: skewY(6deg);
+  transform-origin: top right;
+}
+
+
 //My Background
 .dot-container {
   display: flex;
@@ -555,9 +577,9 @@ a {
   width: 100%;
   display: inline-block;
 //  background-color: $background-color2;
-  background-image: url("../src/Assets/bg_contact.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+//  background-image: url("../src/Assets/bg_contact.png");
+//  background-repeat: no-repeat;
+//  background-size: cover;
   padding-bottom: 0;
 }
 
@@ -611,6 +633,32 @@ textarea {
   }
 }
 
+
+
+.skew-container-footer {
+  position: relative;
+  background: $background-color2;
+  height: 30vh;
+  z-index: -1;
+  overflow:hidden;
+}
+
+.skewed-footer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, $main-color, $color2);
+  z-index: -1;
+  transform: skewY(-11deg);
+  transform-origin: top left;
+  margin-top: 40%;
+  overflow:hidden;
+}
+
 //Footer 
 #footer {
   width: 100%;
@@ -659,12 +707,6 @@ textarea {
   margin-top: 10px;
 }
 
-@media screen and (max-width: 900px) {
-  //Contact
-  #contact {
-    background-image: url("../src/Assets/bg_contact_tablet.png");
-  }
-}
 
 @media screen and (max-width: 450px) {
   .title-fade {
@@ -704,9 +746,11 @@ textarea {
 
 
   //Contact
+  /*
   #contact {
     background-image: url("../src/Assets/bg_contact_mobile.png");
   }
+  */
 
   //Footer
   #footer {

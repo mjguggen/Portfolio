@@ -1,20 +1,14 @@
 import React from 'react';
-import bg from '../Assets/bg_contact.png'
 import Footer from '../Components/Footer'
 
-
-const background = {
-    backgroundImage: bg
-    
-}
 
 const Contact = () => {
 
 
-
-
     return(
-        <div className="page" id="contact" name="contact" >
+        <div className="page skew-container-footer" id="contact" name="contact" >
+            <div class="skewed-footer"></div>
+
                 
             <div className="container">
                 <h1>CONTACT</h1>

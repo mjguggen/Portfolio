@@ -1,6 +1,5 @@
 import React from 'react';
 import Mike from '../Assets/Mike_Guggenbuehl.jpg';
-import NavBG from '../Assets/bg_nav.jpg'
 
 
 const Navbar = () => (
