@@ -667,6 +667,27 @@ textarea {
 }
 
 @media screen and (max-width: 450px) {
+  .title-fade {
+    opacity: 1;
+    $title-fade-duration: fadein .1s forwards;
+    -webkit-animation: $title-fade-duration;
+    -moz-animation: $title-fade-duration;
+    -ms-animation: $title-fade-duration;
+    animation: $title-fade-duration;
+  }
+
+  .title-fade2 {
+    opacity: 1;
+    $title-fade2-duration: fadein .1s forwards;
+  
+    -webkit-animation: $title-fade2-duration;
+    -moz-animation: $title-fade2-duration;
+    -ms-animation: $title-fade2-duration;
+    animation: $title-fade2-duration;
+  }
+
+
+
   //Projects 
   .project-description {
     font-size: 14px;

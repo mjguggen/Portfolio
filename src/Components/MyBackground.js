@@ -27,13 +27,14 @@ const MyBackground = props => (
                     <div className="dot"></div>
                     <div id='mybg-title'>MUSIC PRODUCER </div> 
                 </div>
-                <div className="fade-in-slow" id="mybg-description">Throughout my professional career I also built a budding career as a music producer. I was one of the original artists signed to Chillhop Records (famous for their 24/7 beats to study/relax to radio station). I been lucky enough to have the opportunity to perform at venues throughout the country and develop a dedicated fanbase online.</div>
+                <div className="fade-in-slow" id="mybg-description">Throughout my professional career I channeled by entrepreneurial spirit and built a budding career as a music producer on the side. I was one of the original artists signed to Chillhop Records (famous for their 24/7 beats to study/relax to radio station) and have amassed more than 20 million streams online. This has given me the opportunity to develop a dedicated fanbase and perform at venues throughout the country. Through this, I learned additional skills beyond just making music, including graphic design, video production, social media, and event planning.</div>
 
                 <div className="dot-container fade-in">
                     <div className="dot"></div>
                     <div id='mybg-title'> WEB DEVELOPER </div>
                 </div>
-                <div className="fade-in-slow" id="mybg-description"> In the fall of 2019 I left my career and decided to travel throughout Europe for three months. During this adventure I took some time to think about what I'm best at and where my skills would best fit in a career. I'm a mix of creative and analytical, which led me to land on web development. I dove head first into development by taking classes on Udemy and FreeCodeCamp, as well as building my own projects. </div>
+                <div className="fade-in-slow" id="mybg-description"> Looking to expand my skillset, I dove headfirst into learning web development in the fall of 2019. I have completed multiple courses on Udemy and FreeCodeCamp, as well as built my own personal projects. My primary focus has been on learning front end development with a focus on React.
+                 </div>
 
             </div>
 
