@@ -7,9 +7,7 @@ const Contact = () => {
 
     return(
         <div className="page skew-container-footer" id="contact" name="contact" >
-            <div class="skewed-footer"></div>
 
-                
             <div className="container">
                 <h1>CONTACT</h1>
                 <form className="contact-form" action="https://formspree.io/mvobgwkn" method="POST">
@@ -26,8 +24,13 @@ const Contact = () => {
 
                 </form>
 
+
+
             </div>
             <Footer/>
+
+            <div className="skewed-footer"></div> 
+
         </div>
     )
 }

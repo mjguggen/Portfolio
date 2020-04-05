@@ -10,7 +10,7 @@ import MyBackground from './Components/MyBackground'
 import Certifications from './Components/Certifications'
 import Navbar from './Components/Navbar'
 import Contact from './Components/Contact'
-
+import Skills from './Components/Skills'
 
 
 
@@ -94,6 +94,7 @@ class App extends React.Component {
           <TitlePage />
           <MyBackground />
           <Projects />
+          <Skills/>
           <Certifications />
           <Contact/>
       </div>

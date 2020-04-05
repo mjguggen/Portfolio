@@ -8,7 +8,7 @@ const TitlePage = (props) => {
     return(
         <div className='page skew-container' id='title-page'>
 
-              <div class="skewed"></div>
+              <div className="skewed"></div>
 
             <div className="title-elements">
                 <h1 className="title-fade"> Hey, I'm Mike! </h1>

@@ -18,9 +18,6 @@ $fontColor2: #474747;
 //  font-family: 'Baloo 2', sans-serif;
   font-family: 'Baloo Bhaina 2', sans-serif;
   line-height: 125%;
-  overflow-x: hidden;
-  width: 100%;
-  height: 100%;
 }
 
 .page {
@@ -295,6 +292,11 @@ a {
   color: $fontColor2;
 }
 
+.mybg-list {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 
 //Projects
 #projects {
@@ -432,10 +434,93 @@ a {
     margin-right: auto;
     margin-left: auto;
   }
-
 }
 
+//Skills
+.skill-wrap {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skill-title {
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 20px;
+}
+
+.skill-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.skill-icon-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+.skill-icon {
+  max-height: 75%;
+  max-width: 75%;
+  border-radius: 5px;
+}
+
+.skill-description {
+  color: $main-color;
+  position: absolute;
+  font-weight: 700;
+  font-size: 10px;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 110%;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity .2s, transform .3s;
+}
+
+.skill-icon-container {
+  height: 70px;
+  width: 70px;
+  background-color:$background-color2;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  box-shadow: 0 0 2px transparent;
+  transition: transform .5s;
+
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 4px #dbdbdb;
+    transition: transform .5s, box-shadow .2s;
+
+
+    .skill-icon {
+      filter: brightness(.4);
+      opacity: .2;
+    }
+
+    .skill-description {
+      opacity: 1;
+      transform: translateY(0px);
+      transition: opacity .3s, transform .3s;
+    }
+
+  }
+}
+
+
 //Certifications
+#certifications {
+ background-color: $background-color2
+}
 
 .certification {
   width: 90%;
@@ -575,11 +660,8 @@ a {
 #contact {
   height: 100%;
   width: 100%;
+//  background-color: white;
   display: inline-block;
-//  background-color: $background-color2;
-//  background-image: url("../src/Assets/bg_contact.png");
-//  background-repeat: no-repeat;
-//  background-size: cover;
   padding-bottom: 0;
 }
 
@@ -639,8 +721,9 @@ textarea {
   position: relative;
   background: $background-color2;
   height: 30vh;
-  z-index: -1;
   overflow:hidden;
+  display: none;
+  z-index: 1;
 }
 
 .skewed-footer {
@@ -652,7 +735,7 @@ textarea {
   width: 100%;
   height: 100%;
   background: linear-gradient(to right, $main-color, $color2);
-  z-index: -1;
+  z-index: -4;
   transform: skewY(-6deg);
   transform-origin: top left;
   margin-top: 20%;
@@ -733,7 +816,7 @@ textarea {
   .title-fade2 {
     opacity: 1;
     $title-fade2-duration: fadein .1s forwards;
-  
+
     -webkit-animation: $title-fade2-duration;
     -moz-animation: $title-fade2-duration;
     -ms-animation: $title-fade2-duration;
@@ -741,6 +824,12 @@ textarea {
   }
 
 
+  //My Background
+  .mybg-list {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
 
   //Projects 
   .project-description {
@@ -756,13 +845,11 @@ textarea {
     width: 100%;
   }
 
-
-  //Contact
-  /*
-  #contact {
-    background-image: url("../src/Assets/bg_contact_mobile.png");
+  //Skills
+  .skill-wrap {
+    width: 100%;
   }
-  */
+
 
   //Footer
   #footer {
@@ -770,9 +857,6 @@ textarea {
     padding-bottom: 30px;
   }
 }
-
-//background-image: url("../src/Assets/bg_contact.png");
-
   
 //transition 
 .fade-in {
