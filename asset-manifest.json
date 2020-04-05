@@ -1,29 +1,26 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.3c0534b7.chunk.css",
-    "main.js": "/Portfolio/static/js/main.8ccd8807.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.8ccd8807.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.9c28d5ab.chunk.css",
+    "main.js": "/Portfolio/static/js/main.8f5eb401.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.8f5eb401.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.2537043f.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.2537043f.js.map",
-    "static/js/2.fc3017ab.chunk.js": "/Portfolio/static/js/2.fc3017ab.chunk.js",
-    "static/js/2.fc3017ab.chunk.js.map": "/Portfolio/static/js/2.fc3017ab.chunk.js.map",
+    "static/js/2.abdd43a6.chunk.js": "/Portfolio/static/js/2.abdd43a6.chunk.js",
+    "static/js/2.abdd43a6.chunk.js.map": "/Portfolio/static/js/2.abdd43a6.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.dbfac2d7efd2a6c99ad03534e30c4e1f.js": "/Portfolio/precache-manifest.dbfac2d7efd2a6c99ad03534e30c4e1f.js",
+    "precache-manifest.73a9d2a3040658e70e1f342c39d6cb20.js": "/Portfolio/precache-manifest.73a9d2a3040658e70e1f342c39d6cb20.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.3c0534b7.chunk.css.map": "/Portfolio/static/css/main.3c0534b7.chunk.css.map",
-    "static/js/2.fc3017ab.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.fc3017ab.chunk.js.LICENSE.txt",
+    "static/css/main.9c28d5ab.chunk.css.map": "/Portfolio/static/css/main.9c28d5ab.chunk.css.map",
+    "static/js/2.abdd43a6.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.abdd43a6.chunk.js.LICENSE.txt",
     "static/media/Mike_Guggenbuehl.jpg": "/Portfolio/static/media/Mike_Guggenbuehl.4576c8d6.jpg",
-    "static/media/bg.png": "/Portfolio/static/media/bg.f30f96b9.png",
-    "static/media/App.scss": "/Portfolio/static/media/bg_contact_tablet.baa06b1e.png",
-    "static/media/bg_nav.jpg": "/Portfolio/static/media/bg_nav.7bed98c7.jpg",
     "static/media/drumpad.png": "/Portfolio/static/media/drumpad.6839d04b.png",
     "static/media/stock_info.png": "/Portfolio/static/media/stock_info.b2716e1c.png",
     "static/media/weather.png": "/Portfolio/static/media/weather.6e491fe2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2537043f.js",
-    "static/js/2.fc3017ab.chunk.js",
-    "static/css/main.3c0534b7.chunk.css",
-    "static/js/main.8ccd8807.chunk.js"
+    "static/js/2.abdd43a6.chunk.js",
+    "static/css/main.9c28d5ab.chunk.css",
+    "static/js/main.8f5eb401.chunk.js"
   ]
 }
