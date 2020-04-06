@@ -848,6 +848,14 @@ textarea {
   //Skills
   .skill-wrap {
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .skill-icon-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
 
