@@ -1,3 +1,3 @@
-Created using React by Mike Guggenbuehl
+## Created by Mike Guggenbuehl
 
-Thank you for checking out my projects!
+**Thank you for checking out my projects!**

@@ -56,7 +56,7 @@ class App extends React.Component {
     const fadeOptions = {
       root: null,
       threshold: 0,
-      rootMargin: "-200px"
+      rootMargin: "-100px"
     }
 
     const scrollFade = new IntersectionObserver(function(entries, scrollFade){

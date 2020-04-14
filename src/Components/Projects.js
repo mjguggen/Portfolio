@@ -3,6 +3,7 @@ import React from 'react';
 import weather from '../Assets/Projects/weather.png'
 import drumpad from '../Assets/Projects/drumpad.png'
 import stockInfo from '../Assets/Projects/stock_info.png'
+import neonTrivia from '../Assets/Projects/neon_trivia.png'
 
 const reactImg = ("https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png")
 const sassImg = ("https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg")
@@ -75,7 +76,42 @@ const Projects = (props) => {
 
                 <div className="bar"/>
 
-                <div className="project project2">
+                <div className="project project2" id="project-weather">
+                    <div className="project-description-box fade-in" >
+                        <div className="project-title"> NEON TRIVIA</div>
+                        <div className="project-subheader"> Play Trivia with a neon theme</div>
+                        <div className="project-description">During the Covid-19 quarantine my family asked me to find a trivia game online that we could play together. After an unsuccessful Google search, I decided to build one myself. </div>
+                        <div className="project-tech">
+                            TECH STACK |
+                            <div className="icon-container">
+                                <img src={reactImg} id="project-icon"/>
+                                <img src={sassImg} id="project-icon"/>
+                                <img src={htmlImg} id="project-icon"/>
+                                <img src={cssImg} id="project-icon"/>
+                                <img src={jsImg} id="project-icon"/>
+                            </div>
+                        </div>
+                        <div className="description-link-wrapper">
+                            <a className="description-link" href="https://github.com/mjguggen/NeonTrivia" target="_blank">Github</a>
+                            <a className="description-link" href="https://mjguggen.github.io/NeonTrivia/" target="_blank">Website</a>
+                        </div>
+                    </div>
+                    <div className="project-image-box fade-in">
+                        <a href="https://mjguggen.github.io/NeonTrivia/" target="_blank">
+                            <img src={neonTrivia} className="project-image"/>
+                        </a>
+                    </div>
+                </div>
+
+                <div className="bar"/>
+
+                <div className="project">
+
+                    <div className="project-image-box fade-in">
+                        <a href="https://mjguggen.github.io/Drum-Pad/" target="_blank">
+                            <img src={drumpad} className="project-image"/>
+                        </a>
+                    </div>
                     <div className="project-description-box fade-in" >
                         <div className="project-title"> DRUM PAD</div>
                         <div className="project-subheader"> Virtual MPD</div>
@@ -95,11 +131,7 @@ const Projects = (props) => {
                             
                         </div>
                     </div>
-                    <div className="project-image-box fade-in">
-                        <a href="https://mjguggen.github.io/Drum-Pad/" target="_blank">
-                            <img src={drumpad} className="project-image"/>
-                        </a>
-                    </div>
+
                 </div>
             </div>
         </div>
