@@ -70,7 +70,6 @@ class App extends React.Component {
       })
     }, fadeOptions)
 
-
     faders.forEach(fader => {
       scrollFade.observe(fader)
     });
