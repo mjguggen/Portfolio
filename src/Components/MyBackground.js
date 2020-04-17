@@ -1,4 +1,9 @@
 import React from 'react'
+import ui from '../Assets/ui-ux.svg'
+import webdev from '../Assets/webdev.png'
+import webdev2 from '../Assets/webdev2.png'
+import digitalMarketing from '../Assets/digital-marketing.svg'
+import mixer from '../Assets/mixer.png'
 
 
 
@@ -6,6 +11,46 @@ const MyBackground = props => (
     <div className="page" id="my-background">
 
         <div className="container">
+            <h1>ABOUT ME</h1>
+            <div className="mybg-subheader fade-in">With digital marketing experience for Fortune 100 companies and web development skills, I can help your team build better products that achieve your business goals.
+            </div>
+
+            <div className="mybg-wrapper">
+                <div className="mybg-card fade-in">
+                    
+                    <div className="mybg-title">WEB DEVELOPMENT</div>
+                    <div className="mybg-icon-container"> <img className="mybg-icon" id="web-dev-icon" src={webdev2}/></div>
+                    <div className="mybg-text">I design web applications using React, Javascript, HTML, and CSS/SCSS.</div>
+                </div>
+
+                <div className="bar mobile"/>
+
+
+                <div className="mybg-card fade-in">
+                    <div className="mybg-title">UI/UX</div>
+                    <div className="mybg-icon-container"> <img className="mybg-icon" src={ui}/></div>
+                    <div className="mybg-text">I design user focused layouts that maximize usability and responsiveness.</div>
+                </div>
+
+                <div className="bar mobile"/>
+
+                <div className="mybg-card fade-in">
+                    <div className="mybg-title">MARKETING</div>
+                    <div className="mybg-icon-container"> <img className="mybg-icon" src={digitalMarketing}/></div>
+                    <div className="mybg-text">I have managed media campaigns for companies including: Walmart, Target, Hotwire.com, and Culligan Water. </div>
+                </div>
+
+                <div className="bar mobile"/>
+
+                <div className="mybg-card fade-in">
+                    <div className="mybg-title">MUSIC PRODUCTION</div>
+                    <div className="mybg-icon-container"> <img className="mybg-icon" src={mixer}/></div>
+                    <div className="mybg-text">I have produced, mixed, and mastered albums that have been streamed over 20 million times online.</div>
+                </div>
+            </div>
+
+
+{/*
             <h1> BACKGROUND</h1>
 
             <div className='mybg-bar'/>
@@ -37,7 +82,7 @@ const MyBackground = props => (
                  </div>
 
             </div>
-
+ */}
         </div>
     </div>
 )

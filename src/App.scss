@@ -47,6 +47,9 @@ a {
   cursor: pointer;
 }
 
+.mobile {
+  display: none;
+}
 
 //Navbar
 #navbar {
@@ -172,7 +175,7 @@ a {
 
 //title page
 #title-page {
-  height: 60vh;
+  height: 50vh;
   width: 100%;
   color: white;
   display: flex;
@@ -266,6 +269,7 @@ a {
 
 
 //My Background
+/*
 .dot-container {
   display: flex;
   align-items: center;
@@ -296,7 +300,83 @@ a {
   padding-left: 40px;
   padding-right: 40px;
 }
+*/
 
+.mybg-subheader {
+  width: 90%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+
+.mybg-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.mybg-card {
+  width: 20%;
+  min-width: 200px;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16);
+}
+
+.mybg-title {
+  font-weight: 700;
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.mybg-icon-container {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mybg-icon {
+  width: 90%;
+  height: 90%;
+  filter: invert(100%) brightness(.05) sepia(20) saturate(80) hue-rotate(540deg);
+}
+
+#web-dev-icon {
+  width: 80%;
+  height: 80%;
+  border-radius: 5px;
+}
+
+.mybg-text {
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .mybg-card {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .mybg-subheader {
+    width: 100%;
+  }
+
+  .mybg-card {
+    width: 100%;
+    box-shadow: none;
+  }
+}
 
 //Projects
 #projects {
@@ -415,8 +495,8 @@ a {
 .bar {
   width: 100%;
   height: 2px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   background-color: #dbdbdb;
 }
 
@@ -807,6 +887,10 @@ textarea {
 
 
 @media screen and (max-width: 450px) {
+  .mobile {
+    display: block;
+  }
+
   .title-fade {
     opacity: 1;
     $title-fade-duration: fadein .1s forwards;
@@ -832,7 +916,7 @@ textarea {
     padding-left: 0px;
     padding-right: 0px;
   }
-  
+
 
   //Projects 
   .project-description {
@@ -847,6 +931,12 @@ textarea {
   .project-image-box {
     width: 100%;
   }
+
+
+
+
+
+
 
   //Skills
   .skill-wrap {
