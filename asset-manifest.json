@@ -1,33 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.2d8c0e16.chunk.css",
-    "main.js": "/static/js/main.5e6b1c1c.chunk.js",
-    "main.js.map": "/static/js/main.5e6b1c1c.chunk.js.map",
+    "main.css": "/static/css/main.87e2a084.chunk.css",
+    "main.js": "/static/js/main.0a4ccab4.chunk.js",
+    "main.js.map": "/static/js/main.0a4ccab4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f7a929bc.js",
     "runtime-main.js.map": "/static/js/runtime-main.f7a929bc.js.map",
-    "static/js/2.c67cd429.chunk.js": "/static/js/2.c67cd429.chunk.js",
-    "static/js/2.c67cd429.chunk.js.map": "/static/js/2.c67cd429.chunk.js.map",
+    "static/js/2.2b769606.chunk.js": "/static/js/2.2b769606.chunk.js",
+    "static/js/2.2b769606.chunk.js.map": "/static/js/2.2b769606.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b8a8113aeab2d6b803a5d4192258b2e5.js": "/precache-manifest.b8a8113aeab2d6b803a5d4192258b2e5.js",
+    "precache-manifest.b75ec81cb2034e9c4fab4fd72033c1a1.js": "/precache-manifest.b75ec81cb2034e9c4fab4fd72033c1a1.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.2d8c0e16.chunk.css.map": "/static/css/main.2d8c0e16.chunk.css.map",
-    "static/js/2.c67cd429.chunk.js.LICENSE.txt": "/static/js/2.c67cd429.chunk.js.LICENSE.txt",
+    "static/css/main.87e2a084.chunk.css.map": "/static/css/main.87e2a084.chunk.css.map",
+    "static/js/2.2b769606.chunk.js.LICENSE.txt": "/static/js/2.2b769606.chunk.js.LICENSE.txt",
     "static/media/Mike_Guggenbuehl.jpg": "/static/media/Mike_Guggenbuehl.4576c8d6.jpg",
-    "static/media/Resume.pdf": "/static/media/Resume.2fac37bd.pdf",
-    "static/media/digital-marketing.svg": "/static/media/digital-marketing.f815a8e8.svg",
+    "static/media/Resume.pdf": "/static/media/Resume.db895088.pdf",
+    "static/media/chronicle.png": "/static/media/chronicle.a86b9001.png",
+    "static/media/digital-marketing.svg": "/static/media/digital-marketing.e315a949.svg",
     "static/media/drumpad.png": "/static/media/drumpad.6839d04b.png",
     "static/media/mixer.png": "/static/media/mixer.b3bd7ffa.png",
     "static/media/neon_trivia.png": "/static/media/neon_trivia.680c5758.png",
     "static/media/stock_info.png": "/static/media/stock_info.b2716e1c.png",
     "static/media/ui-ux.svg": "/static/media/ui-ux.6be0a734.svg",
     "static/media/weather.png": "/static/media/weather.6e491fe2.png",
-    "static/media/webdev.png": "/static/media/webdev.ffd2b020.png",
+    "static/media/webdev.png": "/static/media/webdev.36aa8273.png",
     "static/media/webdev2.png": "/static/media/webdev2.8231b09b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f7a929bc.js",
-    "static/js/2.c67cd429.chunk.js",
-    "static/css/main.2d8c0e16.chunk.css",
-    "static/js/main.5e6b1c1c.chunk.js"
+    "static/js/2.2b769606.chunk.js",
+    "static/css/main.87e2a084.chunk.css",
+    "static/js/main.0a4ccab4.chunk.js"
   ]
 }
