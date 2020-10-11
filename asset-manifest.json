@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.23258449.chunk.css",
-    "main.js": "/static/js/main.fd4702be.chunk.js",
-    "main.js.map": "/static/js/main.fd4702be.chunk.js.map",
+    "main.css": "/static/css/main.10094199.chunk.css",
+    "main.js": "/static/js/main.f33b9278.chunk.js",
+    "main.js.map": "/static/js/main.f33b9278.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f7a929bc.js",
     "runtime-main.js.map": "/static/js/runtime-main.f7a929bc.js.map",
-    "static/js/2.213593ee.chunk.js": "/static/js/2.213593ee.chunk.js",
-    "static/js/2.213593ee.chunk.js.map": "/static/js/2.213593ee.chunk.js.map",
+    "static/js/2.1ccdd708.chunk.js": "/static/js/2.1ccdd708.chunk.js",
+    "static/js/2.1ccdd708.chunk.js.map": "/static/js/2.1ccdd708.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ad9acc4145b92ab278cfbf748951d741.js": "/precache-manifest.ad9acc4145b92ab278cfbf748951d741.js",
+    "precache-manifest.725c75473ae7700d54d436d412644963.js": "/precache-manifest.725c75473ae7700d54d436d412644963.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.23258449.chunk.css.map": "/static/css/main.23258449.chunk.css.map",
-    "static/js/2.213593ee.chunk.js.LICENSE.txt": "/static/js/2.213593ee.chunk.js.LICENSE.txt",
+    "static/css/main.10094199.chunk.css.map": "/static/css/main.10094199.chunk.css.map",
+    "static/js/2.1ccdd708.chunk.js.LICENSE.txt": "/static/js/2.1ccdd708.chunk.js.LICENSE.txt",
     "static/media/Mike_Guggenbuehl.jpg": "/static/media/Mike_Guggenbuehl.4576c8d6.jpg",
     "static/media/Resume.pdf": "/static/media/Resume.db895088.pdf",
     "static/media/chronicle.png": "/static/media/chronicle.a86b9001.png",
     "static/media/digital-marketing.svg": "/static/media/digital-marketing.e315a949.svg",
     "static/media/drumpad.png": "/static/media/drumpad.6839d04b.png",
+    "static/media/mikes-stocks.png": "/static/media/mikes-stocks.e4af5920.png",
     "static/media/mixer.png": "/static/media/mixer.b3bd7ffa.png",
     "static/media/neon_trivia.png": "/static/media/neon_trivia.680c5758.png",
     "static/media/stock_info.png": "/static/media/stock_info.b2716e1c.png",
@@ -26,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f7a929bc.js",
-    "static/js/2.213593ee.chunk.js",
-    "static/css/main.23258449.chunk.css",
-    "static/js/main.fd4702be.chunk.js"
+    "static/js/2.1ccdd708.chunk.js",
+    "static/css/main.10094199.chunk.css",
+    "static/js/main.f33b9278.chunk.js"
   ]
 }
