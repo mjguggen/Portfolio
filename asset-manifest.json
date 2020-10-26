@@ -1,33 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.49e64126.chunk.css",
-    "main.js": "/static/js/main.5fdc0e52.chunk.js",
-    "main.js.map": "/static/js/main.5fdc0e52.chunk.js.map",
+    "main.css": "/static/css/main.c75f7c0c.chunk.css",
+    "main.js": "/static/js/main.bfb5e939.chunk.js",
+    "main.js.map": "/static/js/main.bfb5e939.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f7a929bc.js",
     "runtime-main.js.map": "/static/js/runtime-main.f7a929bc.js.map",
-    "static/js/2.d3ad4688.chunk.js": "/static/js/2.d3ad4688.chunk.js",
-    "static/js/2.d3ad4688.chunk.js.map": "/static/js/2.d3ad4688.chunk.js.map",
+    "static/js/2.74dce873.chunk.js": "/static/js/2.74dce873.chunk.js",
+    "static/js/2.74dce873.chunk.js.map": "/static/js/2.74dce873.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6fa463aec8dc02c222eb5eabbc5da2bb.js": "/precache-manifest.6fa463aec8dc02c222eb5eabbc5da2bb.js",
+    "precache-manifest.fa116892f4a70943ae27c8341c1a9ea7.js": "/precache-manifest.fa116892f4a70943ae27c8341c1a9ea7.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.49e64126.chunk.css.map": "/static/css/main.49e64126.chunk.css.map",
-    "static/js/2.d3ad4688.chunk.js.LICENSE.txt": "/static/js/2.d3ad4688.chunk.js.LICENSE.txt",
+    "static/css/main.c75f7c0c.chunk.css.map": "/static/css/main.c75f7c0c.chunk.css.map",
+    "static/js/2.74dce873.chunk.js.LICENSE.txt": "/static/js/2.74dce873.chunk.js.LICENSE.txt",
     "static/media/Mike_Guggenbuehl.jpg": "/static/media/Mike_Guggenbuehl.4576c8d6.jpg",
     "static/media/chronicle.png": "/static/media/chronicle.a86b9001.png",
-    "static/media/digital-marketing.svg": "/static/media/digital-marketing.e315a949.svg",
     "static/media/drumpad.png": "/static/media/drumpad.6839d04b.png",
+    "static/media/git-compare-outline.svg": "/static/media/git-compare-outline.e00af86f.svg",
+    "static/media/hello.svg": "/static/media/hello.30646608.svg",
+    "static/media/laptop-outline.svg": "/static/media/laptop-outline.feb53121.svg",
+    "static/media/megaphone-outline.svg": "/static/media/megaphone-outline.01f52322.svg",
     "static/media/mikes-stocks.png": "/static/media/mikes-stocks.e4af5920.png",
-    "static/media/mixer.png": "/static/media/mixer.b3bd7ffa.png",
     "static/media/neon_trivia.png": "/static/media/neon_trivia.680c5758.png",
+    "static/media/phone-portrait-outline.svg": "/static/media/phone-portrait-outline.3c505631.svg",
     "static/media/stock_info.png": "/static/media/stock_info.b2716e1c.png",
-    "static/media/ui-ux.svg": "/static/media/ui-ux.6be0a734.svg",
-    "static/media/weather.png": "/static/media/weather.6e491fe2.png",
-    "static/media/webdev.png": "/static/media/webdev.36aa8273.png"
+    "static/media/weather.png": "/static/media/weather.6e491fe2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f7a929bc.js",
-    "static/js/2.d3ad4688.chunk.js",
-    "static/css/main.49e64126.chunk.css",
-    "static/js/main.5fdc0e52.chunk.js"
+    "static/js/2.74dce873.chunk.js",
+    "static/css/main.c75f7c0c.chunk.css",
+    "static/js/main.bfb5e939.chunk.js"
   ]
 }
