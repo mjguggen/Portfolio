@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.8f7543eb.chunk.css",
-    "main.js": "/static/js/main.d2b56460.chunk.js",
-    "main.js.map": "/static/js/main.d2b56460.chunk.js.map",
+    "main.css": "/static/css/main.1700037a.chunk.css",
+    "main.js": "/static/js/main.1c3bfa41.chunk.js",
+    "main.js.map": "/static/js/main.1c3bfa41.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f7a929bc.js",
     "runtime-main.js.map": "/static/js/runtime-main.f7a929bc.js.map",
     "static/css/2.1c164e0d.chunk.css": "/static/css/2.1c164e0d.chunk.css",
     "static/js/2.1b44a604.chunk.js": "/static/js/2.1b44a604.chunk.js",
     "static/js/2.1b44a604.chunk.js.map": "/static/js/2.1b44a604.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.aece0087669972f1e967d2019fa86f66.js": "/precache-manifest.aece0087669972f1e967d2019fa86f66.js",
+    "precache-manifest.cacd959a9896a6cc15ea26cef246fde8.js": "/precache-manifest.cacd959a9896a6cc15ea26cef246fde8.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.1c164e0d.chunk.css.map": "/static/css/2.1c164e0d.chunk.css.map",
-    "static/css/main.8f7543eb.chunk.css.map": "/static/css/main.8f7543eb.chunk.css.map",
+    "static/css/main.1700037a.chunk.css.map": "/static/css/main.1700037a.chunk.css.map",
     "static/js/2.1b44a604.chunk.js.LICENSE.txt": "/static/js/2.1b44a604.chunk.js.LICENSE.txt",
-    "static/media/Mike_Guggenbuehl.jpg": "/static/media/Mike_Guggenbuehl.4576c8d6.jpg",
     "static/media/apple.png": "/static/media/apple.47b1ba9b.png",
     "static/media/better_buyer.png": "/static/media/better_buyer.5677e47b.png",
     "static/media/chronicle.png": "/static/media/chronicle.cb7a5350.png",
     "static/media/dev_focus.svg": "/static/media/dev_focus.595d73ad.svg",
+    "static/media/mike-headshot.jpeg": "/static/media/mike-headshot.e3e90974.jpeg",
     "static/media/mikes_stocks.png": "/static/media/mikes_stocks.93311f9c.png",
     "static/media/neon_trivia.png": "/static/media/neon_trivia.18296954.png",
     "static/media/weather.png": "/static/media/weather.1aaf5811.png",
@@ -28,7 +28,7 @@
     "static/js/runtime-main.f7a929bc.js",
     "static/css/2.1c164e0d.chunk.css",
     "static/js/2.1b44a604.chunk.js",
-    "static/css/main.8f7543eb.chunk.css",
-    "static/js/main.d2b56460.chunk.js"
+    "static/css/main.1700037a.chunk.css",
+    "static/js/main.1c3bfa41.chunk.js"
   ]
 }
