@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.1700037a.chunk.css",
-    "main.js": "/static/js/main.1c3bfa41.chunk.js",
-    "main.js.map": "/static/js/main.1c3bfa41.chunk.js.map",
+    "main.js": "/static/js/main.235eda3b.chunk.js",
+    "main.js.map": "/static/js/main.235eda3b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f7a929bc.js",
     "runtime-main.js.map": "/static/js/runtime-main.f7a929bc.js.map",
     "static/css/2.1c164e0d.chunk.css": "/static/css/2.1c164e0d.chunk.css",
-    "static/js/2.1b44a604.chunk.js": "/static/js/2.1b44a604.chunk.js",
-    "static/js/2.1b44a604.chunk.js.map": "/static/js/2.1b44a604.chunk.js.map",
+    "static/js/2.e606fdaf.chunk.js": "/static/js/2.e606fdaf.chunk.js",
+    "static/js/2.e606fdaf.chunk.js.map": "/static/js/2.e606fdaf.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.cacd959a9896a6cc15ea26cef246fde8.js": "/precache-manifest.cacd959a9896a6cc15ea26cef246fde8.js",
+    "precache-manifest.01f3bdae04a7bbae030051d60b093e7f.js": "/precache-manifest.01f3bdae04a7bbae030051d60b093e7f.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.1c164e0d.chunk.css.map": "/static/css/2.1c164e0d.chunk.css.map",
     "static/css/main.1700037a.chunk.css.map": "/static/css/main.1700037a.chunk.css.map",
-    "static/js/2.1b44a604.chunk.js.LICENSE.txt": "/static/js/2.1b44a604.chunk.js.LICENSE.txt",
+    "static/js/2.e606fdaf.chunk.js.LICENSE.txt": "/static/js/2.e606fdaf.chunk.js.LICENSE.txt",
     "static/media/apple.png": "/static/media/apple.47b1ba9b.png",
     "static/media/better_buyer.png": "/static/media/better_buyer.5677e47b.png",
     "static/media/chronicle.png": "/static/media/chronicle.cb7a5350.png",
@@ -27,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.f7a929bc.js",
     "static/css/2.1c164e0d.chunk.css",
-    "static/js/2.1b44a604.chunk.js",
+    "static/js/2.e606fdaf.chunk.js",
     "static/css/main.1700037a.chunk.css",
-    "static/js/main.1c3bfa41.chunk.js"
+    "static/js/main.235eda3b.chunk.js"
   ]
 }
