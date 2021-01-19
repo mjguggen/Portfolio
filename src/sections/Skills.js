@@ -104,6 +104,7 @@ const Skills = () => {
                             top: 0,
                             left: 0,
                             background: '#ececec',
+                            borderRadius: 20,
                             zIndex: -1,
                         }}
                     />
@@ -114,6 +115,7 @@ const Skills = () => {
                             position: 'absolute',
                             height: '100%',
                             width: !categories[i.type] ? '100%' : 0,
+                            
                             zIndex: -1,
                             top: 0,
                             left: 0,

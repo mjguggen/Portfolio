@@ -38,7 +38,17 @@ const App = () => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
+  useEffect(() => {
+    document.addEventListener('gesturestart', function (e) {
+      e.preventDefault();
+    });
 
+    return () => {
+      document.removeEventListener('gesturestart', function (e) {
+        e.preventDefault();
+      })
+    }
+  }, [])
 
 
   //Scroll Fader
