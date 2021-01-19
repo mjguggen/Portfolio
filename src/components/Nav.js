@@ -176,6 +176,7 @@ const Nav = () => {
                                     }}
                                     href={i.href}
                                     onClick={() => toggleNav()}
+                                    key={`nav-${i.text}`}
                                 >
                                     {i.text}
                                 </a>

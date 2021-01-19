@@ -140,7 +140,10 @@ const projectArr = [
 const Projects = () => {
     const projectMap = () => projectArr.map((i, index) => {
         return (
-            <div className="project">
+            <div 
+                className="project"
+                key={`project-title-${i.project}`}
+            >
                 <div className="project-title-container">
                     <div className="project-title-wrap">
                         <div className="project-title"> {i.project} </div>
@@ -194,12 +197,13 @@ const Projects = () => {
                             </div>
                             <div className="icon-container">
                                 {
-                                    i.stack.map((i) => {
+                                    i.stack.map((i, index) => {
                                         return (
                                             <img
                                                 src={skills.filter(j => j.name === i)[0].img}
                                                 className="project-icon"
                                                 alt={i}
+                                                key={`imgkey-${i}-${index}`}
                                             />
                                         )
                                     })
@@ -279,6 +283,7 @@ const Projects = () => {
                 infiniteLoop={true}
                 background="transparent"
                 showStatus={false}
+                showThumbs={false}
             >
                 {projectMap()}
             </Carousel>

@@ -62,8 +62,8 @@ const Blob = (props) => {
                             >
                                 <defs>
                                     <radialGradient id="radial-gradient" cx="10%" fx="10%" fr="0%" r="80%">
-                                        <stop offset="0%" stop-color="#5568C3" />
-                                        <stop offset="100%" stop-color="#27336F" />
+                                        <stop offset="0%" stopColor="#5568C3" />
+                                        <stop offset="100%" stopColor="#27336F" />
                                     </radialGradient>
                                 </defs>
 
@@ -72,7 +72,7 @@ const Blob = (props) => {
                                     <animated.path 
                                         // transform="translate(0,0)"
                                         transform-origin="50% 50%"
-                                        class="blob-gradient" 
+                                        className="blob-gradient" 
                                         d={props.d} 
                                     />
                                 </g>

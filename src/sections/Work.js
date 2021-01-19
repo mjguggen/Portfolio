@@ -91,7 +91,10 @@ const Work = () => (
 
             {
                 jobs.map(i => (
-                    <div className="job">
+                    <div 
+                        className="job"
+                        key={`job-${i.company}-${i.position}`}
+                    >
                         <div className="bullet">
                             <div className="bullet-inner"/>
                         </div>
@@ -128,7 +131,9 @@ const Work = () => (
 
                             <ul className="description">
                                 {i.bullets.map(j => (
-                                    <li>
+                                    <li
+                                        key={`description-${j}`}
+                                    >
                                         {j}
                                     </li>
                                 ))}

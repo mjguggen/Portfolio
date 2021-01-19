@@ -907,6 +907,13 @@ section {
       }
     }
   }
+
+  .project {
+    .project-bottom {
+      flex-wrap: wrap;
+      flex-direction: column-reverse;
+    }
+  }
 }
 
 
@@ -916,7 +923,7 @@ section {
   }
 
   section {
-    padding: 40px 10px;
+    padding: 40px 16px;
   }
 
   .sectionTitle {
@@ -1058,10 +1065,7 @@ section {
       max-height: 35px;
     }
 
-    .project-bottom {
-      flex-wrap: wrap;
-      flex-direction: column-reverse;
-    }
+
 
     .project-left {
       padding: 0px;
@@ -1102,9 +1106,5 @@ section {
   .carousel .control-dots {
     margin-top: 10px;
     position: relative;
-  }
-
-  .thumbs-wrapper{
-    display: none;
   }
 }

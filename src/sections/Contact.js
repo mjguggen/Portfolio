@@ -50,12 +50,17 @@ const Contact = (props) => {
                     // flexGrow: 1,
                 }}
             >
-                <div class="sectionTitle">
+                <div className="sectionTitle">
                     Contact
                 </div>
 
                 <div className="line divider-lg" />
-                <form className="contact-form" action="https://formspree.io/mvobgwkn" method="POST">
+                <form 
+                    className="contact-form" 
+                    action="https://formspree.io/mvobgwkn" 
+                    method="POST"
+                    id="contact-form"
+                >
                     <input type="text" placeholder="Name*" name="Name" className="contact-el" required/>
                     <br/>
 
@@ -86,7 +91,17 @@ const Contact = (props) => {
 
                     <br/>
 
-                    <input type="submit" className="contact-button btn" value="SEND"/>
+                    <div 
+                        type="submit" 
+                        className="contact-button btn"
+                        onClick={(e) => {
+                            e.preventDefault()
+
+                            document.getElementById('contact-form').submit()
+                        }}
+                    >
+                        SEND
+                    </div>
                 </form>
             </div>
 
@@ -125,8 +140,8 @@ const Contact = (props) => {
                                 >
                                     <defs>
                                         <radialGradient id="radial-gradient" cx="10%" fx="10%" fr="0%" r="80%">
-                                            <stop offset="0%" stop-color="#5568C3" />
-                                            <stop offset="100%" stop-color="#27336F" />
+                                            <stop offset="0%" stopColor="#5568C3" />
+                                            <stop offset="100%" stopColor="#27336F" />
                                         </radialGradient>
                                     </defs>
 
@@ -135,7 +150,7 @@ const Contact = (props) => {
                                         <animated.path 
                                             // transform="translate(0,0)"
                                             transform-origin="50% 50%"
-                                            class="blob-gradient" 
+                                            className="blob-gradient" 
                                             d={props.d} 
                                         />
                                     </g>
