@@ -187,7 +187,6 @@ section {
 
 .navBack {
   z-index: 10;
-  backdrop-filter: blur(5px);
   transition: backdrop-filter .5s;
 
   .leftNav {
@@ -322,6 +321,10 @@ section {
 @media only screen and (max-width: 1200px) {
   .nav {
     padding: 20px;
+  }
+
+  .navBack {
+    backdrop-filter: blur(5px);
   }
 }
 
