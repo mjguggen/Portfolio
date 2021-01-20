@@ -67,15 +67,6 @@ const jobs = [
         ],
         logo: "https://www.exchangewire.com/wp-content/uploads/2019/06/groupm.png"
     },
-    {
-        company: "Thomson Reuters",
-        time: "Jun 2015 – Sep 2015",
-        position: "Marketing and Data Intern",
-        bullets: [
-
-        ],
-        logo: "https://res-1.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco/v1397191966/68aa3a98f81f5e09a3afb00a73461434.png"
-    },
 ]
 
 const Work = () => (
