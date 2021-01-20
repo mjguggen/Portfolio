@@ -1,8 +1,15 @@
 import React from 'react'
 
+import Blob from '../components/Blob'
 
-const Header = () => (
+const Header = (props) => (
     <div className="header" id="header">
+        <Blob
+            width={props.width}
+            height={props.height}
+            top={true}
+        />
+
         <div className="header_box" id="header_box">
             <div className="header_text_top">
                 <div className="header_title">Hey, I'm Mike!</div>
