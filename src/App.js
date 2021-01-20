@@ -18,7 +18,9 @@ const App = () => {
 
 
   function getWindowDimensions() {
-    const { innerWidth: width, innerHeight: height } = window;
+
+
+    const { outerWidth: width, outerHeight: height } = window;
 
     return {
       width,
@@ -26,7 +28,7 @@ const App = () => {
     };
   } 
 
-  const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
+  const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions())
 
   useEffect(() => {
     function handleResize() {
@@ -98,13 +100,19 @@ const App = () => {
     <div className="App">
       
       <Nav/>
-      <Header/>
+      <Header
+        width={windowDimensions.width}
+        height={windowDimensions.height}
+      />
 
+      {/* 
       <Blob
         width={windowDimensions.width}
         height={windowDimensions.height}
         top={true}
       />
+
+      */}
 
       <div className="section-wrapper">
         <Work/>

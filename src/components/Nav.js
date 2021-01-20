@@ -197,7 +197,7 @@ const Nav = () => {
                                 zIndex: 100,
                                 pointerEvents: active ? 'auto' : 'none',
                                 opacity: active ? .7 : 0,
-                                backdropFilter: 'blur(20px)'                            
+                                backdropFilter: 'blur(5px)'                            
                             }}
                             className="bg-overlay"
                             onClick={() => toggleNav()}
