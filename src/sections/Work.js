@@ -2,13 +2,23 @@ import React from 'react'
 
 const jobs = [
     {
+        company: "Best Buy",
+        time: "Feb 2021 - Current",
+        position: "Associate Digital Engineer",
+        bullets: [
+        ],
+        logo: "https://lh3.googleusercontent.com/proxy/wSjO8-Qr3U_xytC1ZDkTfUsOB8OBOfz3RF8jRjKLikXdJt-beY3CPAclFCqKBOGiSpHS6c0e9ZpQjYwXJeW3012NypZYTuwwp0YJmprJmqwKeJD6fMWA3mQ_AOEToOw"
+    },
+    {
         company: "WebMD",
-        time: "Oct 2020 - Current",
+        time: "Oct 2020 - Feb 2021",
         position: "Web Developer",
         bullets: [
+            /*
             "Built and maintained event registration portals for the MedscapeLIVE! virtual healthcare conference platform",
             "Managed content updates to active registration portals and platform-generated emails",
             "Delivered projects within production SLAs and in accordance with client requirements and company standards",
+            */
         ],
         logo: "https://upload.wikimedia.org/wikipedia/commons/4/42/WebMD_logo.png"
     },
@@ -17,31 +27,24 @@ const jobs = [
         time: "Jan 2020 - Current",
         position: "Web/Native Developer",
         bullets: [
+            /*
             "Revamped UI/UX for websites by creating user-friendly, responsive designs",
             "Translated wireframes into interactive features using HTML, CSS, and JavaScript",
             "Tested and debugged applications to ensure applications were optimized for speed and functionality"
+            */
         ],
-        logo: "https://icon-library.com/images/default-user-icon/default-user-icon-4.jpg"
-    },
-    {
-        company: "Guggenz",
-        time: "Jan 2016 - Current",
-        position: "Music Producer",
-        bullets: [
-            "Produced, mixed, and mastered music that has been streamed more than 25 million times online",
-            "Developed brand identity by designing logo and merchandise and grew engagement through managing social media platforms, email marketing campaigns, and collaborating with other artists and record labels",
-            "Toured and performed at events around the country in cities including: Minneapolis, New York City, Chicago, Philadelphia, Denver, Los Angeles, and San Francisco"
-        ],
-        logo: "https://static1.squarespace.com/static/5cab5a23523958b22999091f/t/5d48afb4afa2a6000182dd61/1572187390697/"
+        logo: "https://i.pinimg.com/originals/93/d3/e3/93d3e31639a4d07613de9dccdc8bd5e8.png"
     },
     {
         company: "Fallon",
         time: "Aug 2018 – Jul 2019",
         position: "Media Planner",
         bullets: [
+            /*
             "Led The Hotwire Effect Series partnership between Hotwire and DraftKings, which included: managing project timelines to ensure deadlines were met, reviewing assets to ensure brand guidelines were followed, and guiding communications with legal teams to establish proper app terms",
             "Led communication with clients, vendors, creative agencies, and internal partners",
             "Executed and optimized media plans while maintaining campaign flowcharts, budget summaries, and reporting data"
+            */
         ],
         logo: "https://media-exp1.licdn.com/dms/image/C4E0BAQHYTQHyeFQJpQ/company-logo_200_200/0?e=2159024400&v=beta&t=FyrxhRQuhNx-c_-GSTAFgQSOVKxMmvFcvy8MYyt-kpQ"
     },
@@ -50,9 +53,11 @@ const jobs = [
         time: "May 2017 – Aug 2018",
         position: "Media Planner",
         bullets: [
+            /*
             "Planned, executed, and optimized media plans of $100M+ across TV, Digital Video, Radio, and Audio Streaming mediums",
             "Led data initiatives, including: verifying measurement methodology, identifying KPIs, building metadata databases, and ensuring data integrity",
             "Managed growth and development of assistant planners"
+            */
         ],
         logo: "https://media.licdn.com/dms/image/C4E0BAQFIcDAm5HsSOg/company-logo_200_200/0?e=2159024400&v=beta&t=SnLNxYfcJN-mM4sF62alSc0uTEmw_ZD1pKM4osMoKbw"
     },
@@ -61,9 +66,11 @@ const jobs = [
         time: "Jun 2016 – May 2017",
         position: "Assistant Media Planner",
         bullets: [
+            /*
             "Coordinated weekly deliverables including: status reports, campaign overviews, competitive reports, flowcharts, and budget summaries",
             "Oversaw trafficking of campaign creative to ensure assets were shipped and received before deadlines",
             "Evaluated media partners to determine relevance to target audience profile"
+            */
         ],
         logo: "https://www.exchangewire.com/wp-content/uploads/2019/06/groupm.png"
     },

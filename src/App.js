@@ -74,8 +74,6 @@ const App = () => {
     }
   }
 
-
-
   const createScrollFaders = () => {
     const scrollFader = new IntersectionObserver(
       (entries, scrollFade) => {
