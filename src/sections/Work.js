@@ -7,7 +7,7 @@ const jobs = [
         position: "Associate Digital Engineer",
         bullets: [
         ],
-        logo: "https://lh3.googleusercontent.com/proxy/wSjO8-Qr3U_xytC1ZDkTfUsOB8OBOfz3RF8jRjKLikXdJt-beY3CPAclFCqKBOGiSpHS6c0e9ZpQjYwXJeW3012NypZYTuwwp0YJmprJmqwKeJD6fMWA3mQ_AOEToOw"
+        logo: "https://cdn.vox-cdn.com/thumbor/Lf9aj9A_nn0uScv_yetBXFf8YAA=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/10806197/2018_rebrand_blog_logo_LEAD_ART.jpg"
     },
     {
         company: "WebMD",
