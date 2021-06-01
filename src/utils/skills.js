@@ -60,6 +60,38 @@ export const skills = [
         web: false,
         mobile: false,  
     },
+    {
+        name: 'groovy',
+        title: 'Groovy',
+        img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Groovy-logo.svg/1200px-Groovy-logo.svg.png',
+        category: 'language',
+        frontEnd: false,
+        backEnd: true,
+        web: false,
+        mobile: false,  
+    },
+    {
+        name: 'java',
+        title: 'Java',
+        img: 'https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png',
+        category: 'language',
+        frontEnd: false,
+        backEnd: true,
+        web: false,
+        mobile: false,  
+    },
+    {
+        name: 'yaml',
+        title: 'YAML',
+        img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/YAML_Logo.svg/1200px-YAML_Logo.svg.png',
+        category: 'language',
+    },
+    {
+        name: 'bash',
+        title: "Bash",
+        img: 'https://e7.pngegg.com/pngimages/48/567/png-clipart-bash-shell-script-command-line-interface-z-shell-shell-rectangle-logo-thumbnail.png',
+        category: "language"
+    },
 
     //frameworks
     {
@@ -102,16 +134,7 @@ export const skills = [
         web: true,
         mobile: true  
     },
-    {
-        name: 'aspDotNet',
-        title: 'ASP.NET',
-        img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/.NET_Logo.svg/1920px-.NET_Logo.svg.png',
-        category: 'framework',
-        frontEnd: true,
-        backEnd: false,
-        web: true,
-        mobile: false  
-    },
+
 
     //server
     {
@@ -156,6 +179,16 @@ export const skills = [
         mobile: false,    
     },
     {
+        name: 'docker',
+        title: 'Docker',
+        img: 'https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png',
+        category: 'server',
+        frontEnd: false,
+        backEnd: true,
+        web: false,
+        mobile: false,    
+    },
+    {
         name: 'graphQL',
         title: 'GraphQL',
         img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/1200px-GraphQL_Logo.svg.png',
@@ -165,28 +198,19 @@ export const skills = [
         web: false,
         mobile: false,    
     },
+    {
+        name: 'springBoot',
+        title: 'Spring Boot',
+        img: 'https://pbs.twimg.com/profile_images/1235870003292856320/iRG4_ojf_400x400.png',
+        category: 'server',
+        frontEnd: false,
+        backEnd: true,
+        web: true,
+        mobile: false  
+    },
 
     //tools
-    {
-        name: 'git',
-        title: 'Git',
-        img: 'https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png',
-        category: 'tools',
-        frontEnd: true,
-        backEnd: true,
-        web: true,
-        mobile: true,    
-    },
-    {
-        name: 'gitHub',
-        title: 'GitHub',
-        img: 'https://image.flaticon.com/icons/png/512/25/25231.png',
-        category: 'tools',
-        frontEnd: true,
-        backEnd: true,
-        web: true,
-        mobile: true,   
-    },
+
     {
         name: 'npm',
         title: 'npm',
@@ -210,7 +234,7 @@ export const skills = [
     {
         name: 'insomnia',
         title: 'Insomnia',
-        img: 'https://pbs.twimg.com/profile_images/1091817101738864640/eQpWLr2c_400x400.jpg',
+        img: 'https://s3.amazonaws.com/s3.roaringapps.com/assets/icons/1561251841927-Insomnia.png',
         category: 'tools',
         frontEnd: false,
         backEnd: true,
@@ -238,6 +262,16 @@ export const skills = [
         mobile: true,     
     },
     {
+        name: 'intelliJ',
+        title: 'IntelliJ',
+        img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/1200px-IntelliJ_IDEA_Icon.svg.png',
+        category: 'tools',
+        frontEnd: false,
+        backEnd: false,
+        web: false,
+        mobile: true,     
+    },
+    {
         name: 'androidStudio',
         title: 'Android Studio',
         img: 'https://2.bp.blogspot.com/-tzm1twY_ENM/XlCRuI0ZkRI/AAAAAAAAOso/BmNOUANXWxwc5vwslNw3WpjrDlgs9PuwQCLcBGAsYHQ/s1600/pasted%2Bimage%2B0.png',
@@ -248,10 +282,137 @@ export const skills = [
         mobile: true,       
     },
 
-
+    //cicd
+    {
+        name: 'jenkins',
+        title: 'Jenkins',
+        img: 'https://a.slack-edge.com/80588/img/services/jenkins-ci_512.png',
+        category: 'cicd',
+    },
+    {
+        name: 'maven',
+        title: 'Maven',
+        img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Apache_Maven_logo.svg/2880px-Apache_Maven_logo.svg.png',
+        category: 'cicd',
+    },
+    {
+        name: 'gradle',
+        title: 'Gradle',
+        img: 'https://gradle.org/images/gradle-knowledge-graph-logo.png',
+        category: 'cicd',
+    },
+    {
+        name: 'artifactory',
+        title: 'Artifactory',
+        img: "https://support.jfrog.com/resource/1547111714000/BR_JFC_Resource/img/jfrog-logo.png",
+        category: 'cicd'
+    },
+    {
+        name: 'sonarqube',
+        title: 'Sonarqube',
+        img: 'https://www.sonarqube.org/logos/index/sonarqube-logo.png',
+        category: 'cicd'
+    },
+    {
+        name: 'git',
+        title: 'Git',
+        img: 'https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png',
+        category: 'cicd',
+        frontEnd: true,
+        backEnd: true,
+        web: true,
+        mobile: true,    
+    },
+    {
+        name: 'gitHub',
+        title: 'GitHub',
+        img: 'https://image.flaticon.com/icons/png/512/25/25231.png',
+        category: 'cicd',
+        frontEnd: true,
+        backEnd: true,
+        web: true,
+        mobile: true,   
+    },
+    {
+        name: 'bitbucket',
+        title: 'Bitbucket',
+        img: 'https://pbs.twimg.com/profile_images/1026981625291190272/35O2KIRX_400x400.jpg',
+        category: 'cicd',
+        frontEnd: true,
+        backEnd: true,
+        web: true,
+        mobile: true,   
+    },
 
     //hosting
+    {
+        name: 'AWS',
+        title: 'AWS',
+        img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1200px-Amazon_Web_Services_Logo.svg.png',
+        category: 'hosting',
+    },
+    {
+        name: 'digitalOcean',
+        title: 'Digital Ocean',
+        img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/DigitalOcean_logo.svg/1200px-DigitalOcean_logo.svg.png',
+        category: 'hosting',
+    },
+    {
+        name: 'heroku',
+        title: 'Heroku',
+        img: 'https://www.nicepng.com/png/full/223-2233246_heroku-logo-salesforce-heroku.png',
+        category: 'hosting',
+    },
+    {
+        name: 'openshift',
+        title: 'Openshift',
+        img: 'https://upload.wikimedia.org/wikipedia/commons/3/3a/OpenShift-LogoType.svg',
+        category: 'hosting'
+    },
 
+    //testing
+    {
+        name: "mocha",
+        title: "Mocha",
+        img: "https://danielkorn.io/images/mocha.png",
+        category: 'testing'
+    },
+    {
+        name: "chai",
+        title: "Chai",
+        img: "https://bestofjs.org/logos/chai.svg",
+        category: 'testing'
+    },
+    {
+        name: "sinon",
+        title: "Sinon",
+        img: "https://sinonjs.org/assets/images/logo.png",
+        category: 'testing'
+    },
+    {
+        name: "jest",
+        title: "Jest",
+        img: "https://miro.medium.com/max/600/1*RQwRLQ0yyCvYmRn_Nst5yg.png",
+        category: 'testing'
+    },
+    {
+        name: "jUnit",
+        title: "JUnit",
+        img: "https://www.opencodez.com/wp-content/uploads/2019/04/Junit-1.png",
+        category: 'testing'
+    },
+    {
+        name: "selenium",
+        title: "Selenium",
+        img: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Selenium_Logo.png",
+        category: 'testing'
+    },
+    {
+        name: "geb",
+        title: "Geb",
+        img: "https://gebish.org/images/logo.png",
+        category: 'testing'
+    },
 
 
 
@@ -327,16 +488,3 @@ export const skills = [
         mobile: true,    
     },
 ]
-
-
-/*
-
-{
-    name: '',
-    title: '',
-    img: '',
-    category: '',
-    use: []    
-}
-
-*/

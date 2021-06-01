@@ -37,8 +37,6 @@ const Skills = () => {
         })
 
     const skillMap = (categoryType) => {
-
-
         return filteredSkills.filter((i) => i.category === categoryType).map((i, index) => {
             return (
                 <div className="category" key={`category-${index}-${i.title}`}>
@@ -73,9 +71,12 @@ const Skills = () => {
 
     const catArr = [
         {catTitle: 'Languages', catName: 'language'},
-        {catTitle: 'Frameworks', catName: 'framework'},
+        {catTitle: 'Frontend Frameworks', catName: 'framework'},
         {catTitle: 'Server/Database', catName: 'server'},
         {catTitle: 'Libraries', catName: 'library'},
+        {catTitle: 'Hosting', catName: 'hosting'},
+        {catTitle: 'Test Frameworks', catName: 'testing'},
+        {catTitle: 'CI/CD', catName: 'cicd'},
         {catTitle: 'Tools', catName: 'tools'},
     ]
 
