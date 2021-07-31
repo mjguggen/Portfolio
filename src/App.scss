@@ -155,6 +155,8 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  top:0px;
+  left: 0px;
   width: 100%;
   padding: 40px;
   pointer-events: none;
@@ -574,7 +576,7 @@ section {
   .category {
     display: flex;
     align-items: center;
-    padding: 5px;
+    padding: 20px 20px 20px 0px;
   
     .category_icon {
       height: 40px;

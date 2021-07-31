@@ -103,15 +103,6 @@ const App = () => {
         height={windowDimensions.height}
       />
 
-      {/* 
-      <Blob
-        width={windowDimensions.width}
-        height={windowDimensions.height}
-        top={true}
-      />
-
-      */}
-
       <div className="section-wrapper">
         <Work/>
         <Skills/>
