@@ -1,3 +1,10 @@
+import weather from '../assets/Projects/weather.png'
+import neonTrivia from '../assets/Projects/neon_trivia.png'
+import chronicle from '../assets/Projects/chronicle.png'
+import mikesStocks from '../assets/Projects/mikes_stocks.png'
+import betterBuyer from '../assets/Projects/better_buyer.png'
+
+
 export const skills = [
     //languages
     {
@@ -19,6 +26,58 @@ export const skills = [
         backEnd: false,
         web: true,
         mobile: true,
+    },
+    {
+        name: 'java',
+        title: 'Java',
+        img: 'https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png',
+        category: 'language',
+        frontEnd: false,
+        backEnd: true,
+        web: false,
+        mobile: false,  
+    },
+    {
+        name: 'kotlin',
+        title: 'Kotlin',
+        img: 'https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png',
+        category: 'language',
+        frontEnd: false,
+        backEnd: true,
+        web: false,
+        mobile: false,  
+    },
+    {
+        name: 'groovy',
+        title: 'Groovy',
+        img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Groovy-logo.svg/1200px-Groovy-logo.svg.png',
+        category: 'language',
+        frontEnd: false,
+        backEnd: true,
+        web: false,
+        mobile: false,  
+    },
+    {
+        name: 'sql',
+        title: 'SQL',
+        img: 'https://icons-for-free.com/iconfiles/png/512/file+sql+icon-1320183612970878250.png',
+        category: 'language',
+        frontEnd: false,
+        backEnd: true,
+        web: false,
+        mobile: false,  
+    },
+    {
+        name: 'yaml',
+        title: 'YAML',
+        img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/YAML_Logo.svg/1200px-YAML_Logo.svg.png',
+        category: 'language',
+    },
+    {
+        name: 'bash',
+        title: "Bash",
+        img: 'https://e7.pngegg.com/pngimages/48/567/png-clipart-bash-shell-script-command-line-interface-z-shell-shell-rectangle-logo-thumbnail.png',
+        category: "language"
     },
     {
         name: 'html',
@@ -49,48 +108,6 @@ export const skills = [
         backEnd: false,
         web: true,
         mobile: false,  
-    },
-    {
-        name: 'sql',
-        title: 'SQL',
-        img: 'https://icons-for-free.com/iconfiles/png/512/file+sql+icon-1320183612970878250.png',
-        category: 'language',
-        frontEnd: false,
-        backEnd: true,
-        web: false,
-        mobile: false,  
-    },
-    {
-        name: 'groovy',
-        title: 'Groovy',
-        img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Groovy-logo.svg/1200px-Groovy-logo.svg.png',
-        category: 'language',
-        frontEnd: false,
-        backEnd: true,
-        web: false,
-        mobile: false,  
-    },
-    {
-        name: 'java',
-        title: 'Java',
-        img: 'https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png',
-        category: 'language',
-        frontEnd: false,
-        backEnd: true,
-        web: false,
-        mobile: false,  
-    },
-    {
-        name: 'yaml',
-        title: 'YAML',
-        img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/YAML_Logo.svg/1200px-YAML_Logo.svg.png',
-        category: 'language',
-    },
-    {
-        name: 'bash',
-        title: "Bash",
-        img: 'https://e7.pngegg.com/pngimages/48/567/png-clipart-bash-shell-script-command-line-interface-z-shell-shell-rectangle-logo-thumbnail.png',
-        category: "language"
     },
 
     //frameworks
@@ -202,7 +219,17 @@ export const skills = [
         name: 'springBoot',
         title: 'Spring Boot',
         img: 'https://pbs.twimg.com/profile_images/1235870003292856320/iRG4_ojf_400x400.png',
-        category: 'server',
+        category: 'framework',
+        frontEnd: false,
+        backEnd: true,
+        web: true,
+        mobile: false  
+    },
+    {
+        name: 'micronaut',
+        title: 'Micronaut',
+        img: "https://www.opencodez.com/wp-content/uploads/2019/08/Micronaut.png",
+        category: 'framework',
         frontEnd: false,
         backEnd: true,
         web: true,
@@ -337,6 +364,26 @@ export const skills = [
         name: 'bitbucket',
         title: 'Bitbucket',
         img: 'https://pbs.twimg.com/profile_images/1026981625291190272/35O2KIRX_400x400.jpg',
+        category: 'cicd',
+        frontEnd: true,
+        backEnd: true,
+        web: true,
+        mobile: true,   
+    },
+    {
+        name: 'graphite',
+        title: 'Graphite',
+        img: "https://grafana.com/static/assets/img/graphitelogo.png",
+        category: 'cicd',
+        frontEnd: true,
+        backEnd: true,
+        web: true,
+        mobile: true,   
+    },
+    {
+        name: 'grafana',
+        title: 'Grafana',
+        img: "https://grafana.com/static/img/about/grafana_logo_swirl_fullcolor.jpg",
         category: 'cicd',
         frontEnd: true,
         backEnd: true,
@@ -486,5 +533,224 @@ export const skills = [
         backEnd: false,
         web: false,
         mobile: true,    
+    },
+    {
+        name: 'materialUI',
+        title: 'Material UI',
+        img: 'https://www.imaginarycloud.com/blog/content/images/2020/06/material-logo.png',
+        category: 'library',
+        frontEnd: true,
+        backEnd: false,
+        web: false,
+        mobile: true,   
+    }, 
+    {
+        name: 'reactRouter',
+        title: 'React Router',
+        img: 'https://res.cloudinary.com/practicaldev/image/fetch/s--bvQtwOo5--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://reacttraining.com/images/blog/reach-react-router-future.png',
+        category: 'library',
+        frontEnd: true,
+        backEnd: false,
+        web: false,
+        mobile: true,   
+    }
+]
+
+export const jobs = [
+    {
+        company: "Best Buy",
+        time: "Feb 2021 - Current",
+        position: "Associate Digital Engineer",
+        bullets: [
+        ],
+        logo: "https://arthouseanime.files.wordpress.com/2016/03/bestbuy1.jpg"
+    },
+    {
+        company: "WebMD",
+        time: "Oct 2020 - Feb 2021",
+        position: "Web Developer",
+        bullets: [
+            /*
+            "Built and maintained event registration portals for the MedscapeLIVE! virtual healthcare conference platform",
+            "Managed content updates to active registration portals and platform-generated emails",
+            "Delivered projects within production SLAs and in accordance with client requirements and company standards",
+            */
+        ],
+        logo: "https://upload.wikimedia.org/wikipedia/commons/4/42/WebMD_logo.png"
+    },
+    {
+        company: "Freelance",
+        time: "Jan 2020 - Current",
+        position: "Web/Native Developer",
+        bullets: [
+            /*
+            "Revamped UI/UX for websites by creating user-friendly, responsive designs",
+            "Translated wireframes into interactive features using HTML, CSS, and JavaScript",
+            "Tested and debugged applications to ensure applications were optimized for speed and functionality"
+            */
+        ],
+        logo: "https://i.pinimg.com/originals/93/d3/e3/93d3e31639a4d07613de9dccdc8bd5e8.png"
+    },
+    {
+        company: "Fallon",
+        time: "Aug 2018 – Jul 2019",
+        position: "Media Planner",
+        bullets: [
+            /*
+            "Led The Hotwire Effect Series partnership between Hotwire and DraftKings, which included: managing project timelines to ensure deadlines were met, reviewing assets to ensure brand guidelines were followed, and guiding communications with legal teams to establish proper app terms",
+            "Led communication with clients, vendors, creative agencies, and internal partners",
+            "Executed and optimized media plans while maintaining campaign flowcharts, budget summaries, and reporting data"
+            */
+        ],
+        logo: "https://media-exp1.licdn.com/dms/image/C4E0BAQHYTQHyeFQJpQ/company-logo_200_200/0?e=2159024400&v=beta&t=FyrxhRQuhNx-c_-GSTAFgQSOVKxMmvFcvy8MYyt-kpQ"
+    },
+    {
+        company: "Haworth Marketing",
+        time: "May 2017 – Aug 2018",
+        position: "Media Planner",
+        bullets: [
+            /*
+            "Planned, executed, and optimized media plans of $100M+ across TV, Digital Video, Radio, and Audio Streaming mediums",
+            "Led data initiatives, including: verifying measurement methodology, identifying KPIs, building metadata databases, and ensuring data integrity",
+            "Managed growth and development of assistant planners"
+            */
+        ],
+        logo: "https://media.licdn.com/dms/image/C4E0BAQFIcDAm5HsSOg/company-logo_200_200/0?e=2159024400&v=beta&t=SnLNxYfcJN-mM4sF62alSc0uTEmw_ZD1pKM4osMoKbw"
+    },
+    {
+        company: "GroupM",
+        time: "Jun 2016 – May 2017",
+        position: "Assistant Media Planner",
+        bullets: [
+            /*
+            "Coordinated weekly deliverables including: status reports, campaign overviews, competitive reports, flowcharts, and budget summaries",
+            "Oversaw trafficking of campaign creative to ensure assets were shipped and received before deadlines",
+            "Evaluated media partners to determine relevance to target audience profile"
+            */
+        ],
+        logo: "https://www.exchangewire.com/wp-content/uploads/2019/06/groupm.png"
+    },
+]
+
+export const projects = [
+    {
+        project: "Better Buyer",
+        subTitle: "The original swipe to buy app",
+        image: betterBuyer,
+        platforms: {
+            ios: true,
+            android: true,
+            web: false,
+        },
+        description: "Better Buyer is cross-platform retail app featuring a unique swipe-to-buy feature ala Tinder meets Best Buy. It allows you to toggle between seven different product categories and purchase products in-app. Products and data are sourced from the Best Buy API.",
+        stack: [
+            "react",
+            "reactNative",
+            "redux",
+            "reactNavigation",
+            "nodeJS",
+            // "Heroku",
+            "express",
+            "git",
+            "gitHub"
+        ],
+        links: {
+            ios: "https://testflight.apple.com/join/QVkJqmc9",
+            android: "https://play.google.com/store/apps/details?id=com.mjguggen.BetterBuyer",
+            web: "",
+        }
+    },
+    {
+        project: "Chronicle",
+        subTitle: "Track your daily wellness",
+        image: chronicle,
+        platforms: {
+            ios: true,
+            android: true,
+            web: false,
+        },
+        description: "Chronicle is a cross platform wellness trackng app built using React Native. It allows you to track your mental wellbeing, diet, sleep, exercise, activities, and overall health management, giving you ability view your wellness data over time.",
+        stack: [
+            "react",
+            "reactNative",
+            "redux",
+            "reactNavigation",
+            "git",
+            "gitHub"
+        ],
+        links: {
+            ios: "https://apps.apple.com/us/app/chronicle-daily-wellness/id1530116288",
+            android: "https://play.google.com/store/apps/details?id=com.guggen.chronicle&hl",
+            web: "",
+        }
+    },
+    {
+        project: "Mike's Stocks",
+        subTitle: "Apple stocks Emulation",
+        image: mikesStocks,
+        platforms: {
+            ios: true,
+            android: true,
+            web: false,
+        },
+        description: "Using the native iOS Stocks app UX/UI as inpsiration, Mike's Stocks allows users to create a stock watchlist, view stock charts and data, and get the latest financial news. All financial data is sourced from iEX cloud.",
+        stack: [
+            "react",
+            "reactNative",
+            "redux",
+            "reactNavigation",
+            "nodeJS",
+            // "Heroku",
+            "express",
+            "git",
+            "gitHub"
+        ],
+        links: {
+            ios: "https://testflight.apple.com/join/nuTebWOb",
+            android: "https://play.google.com/store/apps/details?id=com.mjguggen.stonks",
+            web: "",
+        }
+    },
+    {
+        project: "Weather Forecast",
+        subTitle: "Get the latest weather conditions",
+        image: weather,
+        platforms: {
+            ios: false,
+            android: false,
+            web: true,
+        },
+        description: "The Weather Forecast app allows you get the current weather conditions and upcoming weather forecast. Based on the location the user inputs, a background dynamically loads that matches the current weather conditions.",
+        stack: [
+            "react",
+            "git",
+            "gitHub"
+        ],
+        links: {
+            ios: "",
+            android: "",
+            web: "https://mjguggen.github.io/Weather-Forecast/",
+        }
+    },
+    {
+        project: "Neon Trivia",
+        subTitle: "Trivia, with a Neon Theme",
+        image: neonTrivia,
+        platforms: {
+            ios: false,
+            android: false,
+            web: true,
+        },
+        description: "Neon Trivia allows you to play a multiplayer trivia game with your friends. Questions are sourced from the jService API",
+        stack: [
+            "react",
+            "git",
+            "gitHub"
+        ],
+        links: {
+            ios: "",
+            android: "",
+            web: "https://mjguggen.github.io/NeonTrivia/",
+        }
     },
 ]

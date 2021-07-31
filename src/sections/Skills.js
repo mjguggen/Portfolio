@@ -1,6 +1,7 @@
 import React, {useState, Fragment} from 'react'
 
-import {skills} from '../utils/skills'
+import {skills} from '../utils/info'
+import Skill from '../components/Skill'
 
 const Skills = () => {
     const [categories, setCategories] = useState({
@@ -39,16 +40,10 @@ const Skills = () => {
     const skillMap = (categoryType) => {
         return filteredSkills.filter((i) => i.category === categoryType).map((i, index) => {
             return (
-                <div className="category" key={`category-${index}-${i.title}`}>
-                    <div className="category_icon">
-                        <img
-                            className="icon"
-                            src={i.img}
-                        />
-                    </div>
-
-                    <div className="category_name">{i.title}</div>
-                </div>
+                <Skill
+                    title={i.title}
+                    img={i.img}
+                /> 
             )
         })
     }
@@ -71,10 +66,10 @@ const Skills = () => {
 
     const catArr = [
         {catTitle: 'Languages', catName: 'language'},
-        {catTitle: 'Frontend Frameworks', catName: 'framework'},
-        {catTitle: 'Server/Database', catName: 'server'},
+        {catTitle: 'Frameworks', catName: 'framework'},
+        {catTitle: 'Server / Database', catName: 'server'},
         {catTitle: 'Libraries', catName: 'library'},
-        {catTitle: 'Hosting', catName: 'hosting'},
+        {catTitle: 'Cloud / Hosting', catName: 'hosting'},
         {catTitle: 'Test Frameworks', catName: 'testing'},
         {catTitle: 'CI/CD', catName: 'cicd'},
         {catTitle: 'Tools', catName: 'tools'},
@@ -157,9 +152,7 @@ const Skills = () => {
                             style={{
                                 flexGrow: 1,
                                 width: skillMap(i.catName).length > 0 ? '100%' : '0%',
-                                opacity: skillMap(i.catName).length > 0 ? 1 : 0,
-                                //display: skillMap(i.catName).length > 0 ? 'block' : 'none'
-                            
+                                opacity: skillMap(i.catName).length > 0 ? 1 : 0                            
                             }}
                         >
                             <div className="category_title">{i.catTitle}</div>
