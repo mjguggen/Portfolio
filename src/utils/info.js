@@ -11,61 +11,37 @@ export const skills = [
         name: 'javaScript',
         title: 'JavaScript',
         img: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png',
-        category: 'language',
-        frontEnd: true,
-        backEnd: true,
-        web: true,
-        mobile: true,
+        category: 'language'
     },
     {
         name: 'typeScript',
         title: 'TypeScript',
         img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png',
-        category: 'language',
-        frontEnd: true,
-        backEnd: false,
-        web: true,
-        mobile: true,
+        category: 'language'
     },
     {
         name: 'java',
         title: 'Java',
         img: 'https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png',
-        category: 'language',
-        frontEnd: false,
-        backEnd: true,
-        web: false,
-        mobile: false,  
+        category: 'language'
     },
     {
         name: 'kotlin',
         title: 'Kotlin',
         img: 'https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png',
-        category: 'language',
-        frontEnd: false,
-        backEnd: true,
-        web: false,
-        mobile: false,  
+        category: 'language'
     },
     {
         name: 'groovy',
         title: 'Groovy',
         img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Groovy-logo.svg/1200px-Groovy-logo.svg.png',
-        category: 'language',
-        frontEnd: false,
-        backEnd: true,
-        web: false,
-        mobile: false,  
+        category: 'language' 
     },
     {
         name: 'sql',
         title: 'SQL',
         img: 'https://icons-for-free.com/iconfiles/png/512/file+sql+icon-1320183612970878250.png',
-        category: 'language',
-        frontEnd: false,
-        backEnd: true,
-        web: false,
-        mobile: false,  
+        category: 'language'
     },
     {
         name: 'yaml',
@@ -83,31 +59,19 @@ export const skills = [
         name: 'html',
         title: 'HTML5',
         img: 'https://cdn0.iconfinder.com/data/icons/social-network-7/50/22-512.png',
-        category: 'language',
-        frontEnd: true,
-        backEnd: false,
-        web: true,
-        mobile: false,
+        category: 'language'
     },
     {
         name: 'css',
         title: 'CSS3',
         img: 'https://cdn2.iconfinder.com/data/icons/social-icon-3/512/social_style_3_css3-512.png',
-        category: 'language',
-        frontEnd: true,
-        backEnd: false,
-        web: true,
-        mobile: false,  
+        category: 'language' 
     },
     {
         name: 'sass',
         title: 'Sass / SCSS',
         img: 'https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/001/057/full/scsslogo.png',
-        category: 'language',
-        frontEnd: true,
-        backEnd: false,
-        web: true,
-        mobile: false,  
+        category: 'language'
     },
 
     //frameworks
@@ -115,41 +79,25 @@ export const skills = [
         name: 'react',
         title: 'React',
         img: 'https://miro.medium.com/max/500/1*cPh7ujRIfcHAy4kW2ADGOw.png',
-        category: 'framework',
-        frontEnd: true,
-        backEnd: false,
-        web: true,
-        mobile: false,    
+        category: 'framework'  
     },
     {
         name: 'reactNative',
         title: 'React Native',
         img: 'https://pagepro.co/blog/wp-content/uploads/2020/03/react-native-logo-884x1024.png',
-        category: 'framework',
-        frontEnd: true,
-        backEnd: false,
-        web: false,
-        mobile: true,      
+        category: 'framework'  
     },
     {
         name: 'redux',
         title: 'Redux',
         img: 'https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png',
-        category: 'framework',
-        frontEnd: true,
-        backEnd: false,
-        web: true,
-        mobile: true  
+        category: 'framework'
     },
     {
         name: 'nextJS',
         title: 'Next.js',
         img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/800px-Nextjs-logo.svg.png',
-        category: 'framework',
-        frontEnd: true,
-        backEnd: false,
-        web: true,
-        mobile: true  
+        category: 'framework'
     },
 
 
@@ -158,82 +106,44 @@ export const skills = [
         name: 'nodeJS',
         title: 'Node.js',
         img: 'https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg',
-        category: 'server',
-        frontEnd: false,
-        backEnd: true,
-        web: false,
-        mobile: false,  
+        category: 'server'
     },
     {
         name: 'express',
         title: 'Express',
         img: 'https://www.sourcefuse.com/wp-content/uploads/2018/11/express.png',
-        category: 'server',
-        frontEnd: false,
-        backEnd: true,
-        web: false,
-        mobile: false,   
+        category: 'server'
     },
 
     {
         name: 'postgres',
         title: 'PostgreSQL',
         img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png',
-        category: 'server',
-        frontEnd: false,
-        backEnd: true,
-        web: false,
-        mobile: false,    
+        category: 'server'   
     },
     {
         name: 'mongoDB',
         title: 'mongo DB',
         img: 'https://infinapps.com/wp-content/uploads/2018/10/mongodb-logo.png',
-        category: 'server',
-        frontEnd: false,
-        backEnd: true,
-        web: false,
-        mobile: false,    
-    },
-    {
-        name: 'docker',
-        title: 'Docker',
-        img: 'https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png',
-        category: 'server',
-        frontEnd: false,
-        backEnd: true,
-        web: false,
-        mobile: false,    
+        category: 'server'
     },
     {
         name: 'graphQL',
         title: 'GraphQL',
         img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/1200px-GraphQL_Logo.svg.png',
-        category: 'server',
-        frontEnd: false,
-        backEnd: true,
-        web: false,
-        mobile: false,    
+        category: 'server' 
     },
     {
         name: 'springBoot',
         title: 'Spring Boot',
         img: 'https://pbs.twimg.com/profile_images/1235870003292856320/iRG4_ojf_400x400.png',
-        category: 'framework',
-        frontEnd: false,
-        backEnd: true,
-        web: true,
-        mobile: false  
+        category: 'framework'
     },
     {
         name: 'micronaut',
         title: 'Micronaut',
         img: "https://www.opencodez.com/wp-content/uploads/2019/08/Micronaut.png",
-        category: 'framework',
-        frontEnd: false,
-        backEnd: true,
-        web: true,
-        mobile: false  
+        category: 'framework'
     },
 
     //tools
@@ -242,71 +152,49 @@ export const skills = [
         name: 'npm',
         title: 'npm',
         img: 'https://authy.com/wp-content/uploads/npm-logo.png',
-        category: 'tools',
-        frontEnd: true,
-        backEnd: true,
-        web: true,
-        mobile: true,     
+        category: 'tools' 
     },
     {
         name: 'vsCode',
         title: 'VS Code',
         img: 'https://user-images.githubusercontent.com/674621/71187801-14e60a80-2280-11ea-94c9-e56576f76baf.png',
-        category: 'tools',
-        frontEnd: true,
-        backEnd: true,
-        web: true,
-        mobile: true,   
+        category: 'tools' 
     },
     {
         name: 'insomnia',
         title: 'Insomnia',
         img: 'https://s3.amazonaws.com/s3.roaringapps.com/assets/icons/1561251841927-Insomnia.png',
-        category: 'tools',
-        frontEnd: false,
-        backEnd: true,
-        web: false,
-        mobile: false,   
+        category: 'tools'
     },
     {
         name: 'postico',
         title: 'Postico',
         img: 'https://eggerapps.at/postico/img/icon_256x256.png',
-        category: 'tools',
-        frontEnd: false,
-        backEnd: true,
-        web: false,
-        mobile: false,   
+        category: 'tools'
     },
     {
         name: 'xCode',
         title: 'xCode',
         img: 'https://ih1.redbubble.net/image.1348154741.7851/st,small,845x845-pad,1000x1000,f8f8f8.jpg',
-        category: 'tools',
-        frontEnd: false,
-        backEnd: false,
-        web: false,
-        mobile: true,     
+        category: 'tools'  
     },
     {
         name: 'intelliJ',
         title: 'IntelliJ',
         img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/1200px-IntelliJ_IDEA_Icon.svg.png',
-        category: 'tools',
-        frontEnd: false,
-        backEnd: false,
-        web: false,
-        mobile: true,     
+        category: 'tools'
     },
     {
         name: 'androidStudio',
         title: 'Android Studio',
         img: 'https://2.bp.blogspot.com/-tzm1twY_ENM/XlCRuI0ZkRI/AAAAAAAAOso/BmNOUANXWxwc5vwslNw3WpjrDlgs9PuwQCLcBGAsYHQ/s1600/pasted%2Bimage%2B0.png',
-        category: 'tools',
-        frontEnd: false,
-        backEnd: false,
-        web: false,
-        mobile: true,       
+        category: 'tools'
+    },
+    {
+        name: 'jira',
+        title: "Jira",
+        img: "https://cdn.icon-icons.com/icons2/2699/PNG/512/atlassian_jira_logo_icon_170511.png",
+        catgegory: "tools"
     },
 
     //cicd
@@ -344,51 +232,37 @@ export const skills = [
         name: 'git',
         title: 'Git',
         img: 'https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png',
-        category: 'cicd',
-        frontEnd: true,
-        backEnd: true,
-        web: true,
-        mobile: true,    
+        category: 'cicd'   
     },
     {
         name: 'gitHub',
         title: 'GitHub',
         img: 'https://image.flaticon.com/icons/png/512/25/25231.png',
-        category: 'cicd',
-        frontEnd: true,
-        backEnd: true,
-        web: true,
-        mobile: true,   
+        category: 'cicd'
     },
     {
         name: 'bitbucket',
         title: 'Bitbucket',
         img: 'https://pbs.twimg.com/profile_images/1026981625291190272/35O2KIRX_400x400.jpg',
-        category: 'cicd',
-        frontEnd: true,
-        backEnd: true,
-        web: true,
-        mobile: true,   
+        category: 'cicd'
     },
     {
         name: 'graphite',
         title: 'Graphite',
         img: "https://grafana.com/static/assets/img/graphitelogo.png",
-        category: 'cicd',
-        frontEnd: true,
-        backEnd: true,
-        web: true,
-        mobile: true,   
+        category: 'cicd'  
     },
     {
         name: 'grafana',
         title: 'Grafana',
         img: "https://grafana.com/static/img/about/grafana_logo_swirl_fullcolor.jpg",
-        category: 'cicd',
-        frontEnd: true,
-        backEnd: true,
-        web: true,
-        mobile: true,   
+        category: 'cicd'
+    },
+    {
+        name: 'docker',
+        title: "Docker",
+        img: "https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png",
+        category: "cicd"
     },
 
     //hosting
@@ -461,98 +335,60 @@ export const skills = [
         category: 'testing'
     },
 
-
-
     //libraries
     {
         name: 'webpack',
         title: 'Webpack',
         img: 'https://raw.githubusercontent.com/webpack/media/master/logo/icon-square-big.png',
-        category: 'library',
-        frontEnd: true,
-        backEnd: false,
-        web: false,
-        mobile: false,     
+        category: 'library'  
     },
     {
         name: 'JWT',
         title: 'JSON Web Token',
         img: 'https://cdn.auth0.com/blog/jwtalgos/logo.png',
-        category: 'library',
-        frontEnd: false,
-        backEnd: false,
-        web: false,
-        mobile: false,      
+        category: 'library' 
     },
     {
         name: 'chartJS',
         title: 'Chart.js',
         img: 'https://www.chartjs.org/img/chartjs-logo.svg',
-        category: 'library',
-        frontEnd: true,
-        backEnd: false,
-        web: true,
-        mobile: false,   
-    },
-    {
-        name: 'd3',
-        title: 'D3.js',
-        img: 'https://www.attuneww.com/wp-content/uploads/2016/10/d3JS.jpg',
-        category: 'library',
-        frontEnd: true,
-        backEnd: false,
-        web: true,
-        mobile: true,      
+        category: 'library'
     },
     {
         name: 'moment',
         title: 'Moment.js',
         img: 'https://cdn.worldvectorlogo.com/logos/momentjs.svg',
-        category: 'library',
-        frontEnd: true,
-        backEnd: true,
-        web: false,
-        mobile: false,     
+        category: 'library' 
     },
     {
         name: 'reactSpring',
         title: 'React Spring',
         img: 'https://spectrum.imgix.net/communities/ea41b01b-9774-4758-8373-0d3aac38b007/2db3a4dd-62fe-4243-b9d6-5be534165a1b-react-spring-logo.png?w=256&h=256&dpr=2&auto=compress&expires=1607040000000&ixlib=js-1.3.0&s=9da41f15a70515a50c13985942285812',
-        category: 'library',
-        frontEnd: true,
-        backEnd: false,
-        web: true,
-        mobile: true,     
+        category: 'library'
     },
     {
         name: 'reactNavigation',
         title: 'React Navigation',
         img: 'https://pbs.twimg.com/profile_images/1156727030827716608/gppZ606-_400x400.png',
-        category: 'library',
-        frontEnd: true,
-        backEnd: false,
-        web: false,
-        mobile: true,    
+        category: 'library'
     },
     {
         name: 'materialUI',
         title: 'Material UI',
         img: 'https://www.imaginarycloud.com/blog/content/images/2020/06/material-logo.png',
-        category: 'library',
-        frontEnd: true,
-        backEnd: false,
-        web: false,
-        mobile: true,   
+        category: 'library'
     }, 
     {
         name: 'reactRouter',
         title: 'React Router',
         img: 'https://res.cloudinary.com/practicaldev/image/fetch/s--bvQtwOo5--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://reacttraining.com/images/blog/reach-react-router-future.png',
-        category: 'library',
-        frontEnd: true,
-        backEnd: false,
-        web: false,
-        mobile: true,   
+        category: 'library'
+    },
+    {
+        name: 'swagger',
+        title: 'Swagger',
+        img: "https://upload.wikimedia.org/wikipedia/commons/a/ab/Swagger-logo.png",
+        category: 'library'
     }
 ]
 
@@ -560,7 +396,7 @@ export const jobs = [
     {
         company: "Best Buy",
         time: "Feb 2021 - Current",
-        position: "Associate Digital Engineer",
+        position: "Associate Software Engineer",
         bullets: [
         ],
         logo: "https://arthouseanime.files.wordpress.com/2016/03/bestbuy1.jpg"
