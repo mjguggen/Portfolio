@@ -9,7 +9,7 @@
     "@testing-library/user-event": "^12.1.10",
     "blobs": "^2.1.0",
     "flubber": "^0.4.2",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "particles.js": "^2.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
