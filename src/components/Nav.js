@@ -1,6 +1,6 @@
 import React, {useState, Fragment} from 'react'
 
-import headshot from '../assets/mike-headshot.jpeg'
+import headshot from '../assets/mike-headshot.png'
 
 const Nav = () => {
     const [active, setActive] = useState(false)
@@ -94,8 +94,6 @@ const Nav = () => {
                         />
                         <div className="headshot_wrap">
                             <img
-                                // alt="img"
-                                // src={headshot}
                                 className="headshot"
                             />
                         </div>

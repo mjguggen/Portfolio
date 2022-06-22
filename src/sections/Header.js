@@ -1,5 +1,4 @@
 import React from 'react'
-
 import Blob from '../components/Blob'
 
 const Header = (props) => (
