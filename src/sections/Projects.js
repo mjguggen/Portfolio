@@ -1,10 +1,8 @@
 import React from 'react'
-
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-
-import {skills, projects} from '../utils/info'
+import {projects} from '../utils/info'
 import Project from '../components/Project'
 
 const Projects = () => {

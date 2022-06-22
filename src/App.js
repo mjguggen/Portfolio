@@ -1,13 +1,9 @@
 import React, {useEffect, useState} from 'react'
-
-//Components
-import AboutMe from './sections/AboutMe';
 import Header from './sections/Header'
 import Nav from './components/Nav'
 import Work from './sections/Work'
 import Skills from './sections/Skills'
 import Projects from './sections/Projects'
-import Blob from './components/Blob'
 import Contact from './sections/Contact'
 
 import './App.scss';

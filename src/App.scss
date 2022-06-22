@@ -358,7 +358,6 @@ section {
   margin: 20px 0px
 }
 
-
 .work-container {
   position: relative;
   width: 100%;
@@ -515,7 +514,6 @@ section {
   }
 }
 
-.skills {
   .btn-wrap {
     display: none;
     align-items: center;
@@ -530,11 +528,10 @@ section {
   }
 
   .category_container {
-    // width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     padding: 20px 0px;
+    width: 100%;
   }
 
   .category_title {
@@ -573,49 +570,56 @@ section {
     margin-bottom: 20px;
   }
 
-  .category {
-    display: flex;
-    align-items: center;
-    padding: 10px 15px 10px 0px;
-  
-    .category_icon {
-      height: 40px;
-      width: 40px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 5px;
-      background: $bg-light;
-      position: relative;
-    
-      .icon {
-        max-width: 90%;
-        max-height: 90%;
-        object-fit: fill;
-        border-radius: 5px;
-        z-index: 5;
-      }
-  
-      .category_bg {
-        background: $bg-light;
-        position: absolute;
-        height: 90%;
-        width: 90%;
-        top: 5%;
-        left: 5%;
-        z-index: 0;
-        border-radius: 5px;
-      }
-    }
-  
-    .category_name {
-      padding: 0px 10px;
-      font-size: .7em;
-    }
+.category {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px 10px 0px;
+}
+
+.category_icon {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background: $bg-light;
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid $border-light;
+  box-shadow: 0px 0px 10px 0px transparent;
+  transition: border .5s, box-shadow .2s, background-color .4s;
+
+  &:hover {
+    background-color: white;
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 10px 0px #dbdbdb;
+  }
+
+  .icon {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+    border-radius: 5px;
+    z-index: 5;
+  }
+
+  .category_bg {
+    background: $bg-light;
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    top: 5%;
+    left: 5%;
+    z-index: 0;
+    border-radius: 5px;
   }
 }
 
-
+.category_name {
+  padding: 0px 10px;
+  font-size: .7em;
+}
 
 .project {
   width: 100%;
@@ -867,30 +871,23 @@ section {
 }
 
 @media only screen and (max-width: 800px) {
-  .skills {
-    .btn-wrap {
-      padding: 0px;
-      display: none;
-    }
+  .btn-wrap {
+    padding: 0px;
+    display: none;
+  }
 
-    .category_container {
-      flex-wrap: wrap;
-    }
+  .category_container {
+    flex-wrap: wrap;
+  }
 
-    .category_subWrapper {
-      flex-direction: row;
-      flex-wrap: wrap;
-    }
+  .category_subWrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 
-    .category {
-      width: fit-content;
-      padding: 0px 10px 5px 0px;
-
-      .category_icon {
-        height: 25px;
-        width: 25px;
-      }
-    }
+  .category {
+    width: fit-content;
+    padding: 0px 10px 5px 0px;
   }
 
   .project {

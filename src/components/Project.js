@@ -4,6 +4,7 @@ import apple from '../assets/icons/apple.png'
 import android from '../assets/icons/android.png'
 import web from '../assets/icons/web.png'
 import {skills} from '../utils/info'
+import Skill from './Skill'
 
 const Project = props => (
     <div 
@@ -61,20 +62,20 @@ const Project = props => (
                     <div className="sub-title">
                         TECH STACK
                     </div>
-                    <div className="icon-container">
-                        {
-                            props.stack.map((i, index) => {
-                                return (
-                                    <img
-                                        src={skills.filter(j => j.name === i)[0].img}
-                                        className="project-icon"
-                                        alt={i}
-                                        key={`imgkey-${i}-${index}`}
-                                    />
-                                )
-                            })
-                        }
+                    <div className="category_container">
+                            {
+                                props.stack.map((i, index) => {
+                                    const skill = skills.find(j => j.name === i)
+
+                                    return (
+                                        <Skill
+                                            {...skill}
+                                        />
+                                    )
+                                })
+                            }
                     </div>
+
                 </div>
 
                 <div className="description-link-wrapper">

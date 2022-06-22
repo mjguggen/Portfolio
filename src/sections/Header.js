@@ -13,12 +13,12 @@ const Header = (props) => (
         <div className="header_box" id="header_box">
             <div className="header_text_top">
                 <div className="header_title">Hey, I'm Mike!</div>
-                <div className="header_sub-title">I'm a Software Developer based in Minneapolis, MN</div>
+                <div className="header_sub-title">I'm a Software Engineer based in Minneapolis, MN</div>
             </div>
 
             <div className="header_text_bottom">
                 <div className="header_title">Hey, I'm Mike!</div>
-                <div className="header_sub-title">I'm a Software Developer based in Minneapolis, MN</div>
+                <div className="header_sub-title">I'm a Software Engineer based in Minneapolis, MN</div>
             </div>
             
         </div>
