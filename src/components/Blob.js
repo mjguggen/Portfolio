@@ -1,8 +1,7 @@
-import React, {useState, useEffect, Fragment} from 'react'
+import React, {useState} from 'react'
 import blobs from 'blobs'
-import { useSpring, config, animated } from "react-spring";
-import {Spring, Transition, Keyframes,} from 'react-spring/renderprops'
-
+import { animated } from "react-spring";
+import {Spring} from 'react-spring'
 
 const Blob = (props) => {
     const top = props.top
@@ -37,11 +36,7 @@ const Blob = (props) => {
         ])
     }
 
-
-
-
     return (
-
         <Spring
             from={{
                 d: paths[paths.length - 2]
