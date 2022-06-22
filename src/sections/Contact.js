@@ -1,9 +1,4 @@
-import React, {useState} from 'react'
-import blobs from 'blobs'
-import { useSpring, config, animated } from "react-spring";
-import {Spring, Transition, Keyframes,} from 'react-spring/renderprops'
-
-
+import React from 'react'
 import Blob from '../components/Blob'
 
 const Contact = (props) => {
@@ -20,9 +15,6 @@ const Contact = (props) => {
                     display: 'flex',
                     flexDirection: 'column',
                     zIndex: 100,
-                    // alignItems: 'center',
-                    // justifyContent: 'center',
-                    // flexGrow: 1,
                 }}
             >
                 <div className="sectionTitle">

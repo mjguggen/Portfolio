@@ -40,16 +40,6 @@ const Job = (props) => (
                 </div>
 
             </div>
-
-            <ul className="description">
-                {props.bullets.map(j => (
-                    <li
-                        key={`description-${j}`}
-                    >
-                        {j}
-                    </li>
-                ))}
-            </ul>
         </div>
     </div>
 )
