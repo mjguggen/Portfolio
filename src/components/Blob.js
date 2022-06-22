@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import blobs from 'blobs'
 import { animated } from "react-spring";
-import {Spring} from 'react-spring/renderprops'
+import {Spring} from 'react-spring'
 
 const Blob = (props) => {
     const top = props.top
