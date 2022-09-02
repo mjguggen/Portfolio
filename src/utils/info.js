@@ -48,6 +48,7 @@ import openapi from '../assets/icons/tech/openapi.svg'
 import webpack from '../assets/icons/tech/webpack.svg'
 import jest from '../assets/icons/tech/jest.svg'
 import githubActions from '../assets/icons/tech/githubActions.png'
+import amazon from '../assets/icons/companies/amazon.svg'
 
 export const skills = [
     //languages
@@ -354,8 +355,14 @@ export const skills = [
 
 export const jobs = [
     {
+        company: "Amazon",
+        time: "Sep 2022 - Current",
+        position: "Software Engineer",
+        logo: amazon
+    },
+    {
         company: "Best Buy",
-        time: "Feb 2021 - Current",
+        time: "Feb 2021 - Sep 2022",
         position: "Software Engineer",
         logo: bby
     },
@@ -370,25 +377,7 @@ export const jobs = [
         time: "Jan 2020 - Current",
         position: "Web/Native Developer",
         logo: freelance
-    },
-    {
-        company: "Fallon",
-        time: "Aug 2018 – Jul 2019",
-        position: "Media Planner",
-        logo: "https://media-exp1.licdn.com/dms/image/C4E0BAQHYTQHyeFQJpQ/company-logo_200_200/0?e=2159024400&v=beta&t=FyrxhRQuhNx-c_-GSTAFgQSOVKxMmvFcvy8MYyt-kpQ"
-    },
-    {
-        company: "Haworth Marketing",
-        time: "May 2017 – Aug 2018",
-        position: "Media Planner",
-        logo: "https://media.licdn.com/dms/image/C4E0BAQFIcDAm5HsSOg/company-logo_200_200/0?e=2159024400&v=beta&t=SnLNxYfcJN-mM4sF62alSc0uTEmw_ZD1pKM4osMoKbw"
-    },
-    {
-        company: "GroupM",
-        time: "Jun 2016 – May 2017",
-        position: "Assistant Media Planner",
-        logo: "https://www.exchangewire.com/wp-content/uploads/2019/06/groupm.png"
-    },
+    }
 ]
 
 export const projects = [

@@ -5,14 +5,9 @@ import Work from './sections/Work'
 import Skills from './sections/Skills'
 import Projects from './sections/Projects'
 import Contact from './sections/Contact'
-
 import './App.scss';
 
-
 const App = () => {
-
-
-
   function getWindowDimensions() {
 
 

@@ -1,8 +1,6 @@
 import React from 'react'
-import Blob from '../components/Blob'
 
 const Contact = (props) => {
-
     return (
         <div id="contact">
 
@@ -75,15 +73,6 @@ const Contact = (props) => {
             <div className="footer">
                 <div className="footer_text">© Mike Guggenbuehl 2021</div>
             </div>
-            
-
-
-            <Blob
-                width={props.width}
-                height={props.height}
-                top={false}
-            />
-
         </div>
     )
 

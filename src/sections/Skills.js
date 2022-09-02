@@ -1,5 +1,4 @@
 import React from 'react'
-
 import {skills} from '../utils/info'
 import Skill from '../components/Skill'
 
@@ -16,7 +15,6 @@ const Skills = () => {
         })
     }
 
-
     const catArr = [
         {catTitle: 'Languages', catName: 'language'},
         {catTitle: 'Technologies', catName: 'technology'},
@@ -24,8 +22,6 @@ const Skills = () => {
         {catTitle: 'Test Frameworks', catName: 'testing'},
         {catTitle: 'Tools', catName: 'tools'},
     ]
-
-
 
     return (
         <section className="skills" id="skills">
